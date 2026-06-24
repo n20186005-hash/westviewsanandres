@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Eco Parque West View | 哥伦比亚圣安德烈斯的水上乐园",
-    "description": "探索 Eco Parque West View，位于哥伦比亚圣安德烈斯的水上乐园，享受刺激的水上活动和家庭乐趣。"
+    "title": "Eco Parque West View | 哥伦比亚圣安德烈斯的天然生态公园",
+    "description": "探索 Eco Parque West View，位于哥伦比亚圣安德烈斯的顶级浮潜圣地，享受加勒比海水下生态与跳水乐趣。"
   },
   "header": {
     "siteName": "Eco Parque West View",
@@ -13,45 +13,46 @@
   },
   "hero": {
     "title": "Eco Parque West View",
-    "subtitle": "圣安德烈斯顶级水上乐园",
+    "subtitle": "圣安德烈斯顶级浮潜圣地",
     "rating": "4.6",
     "reviewCount": "6,290",
-    "hours": "水上乐园",
+    "hours": "天然生态公园",
     "openMaps": "查看地图导航"
   },
   "intro": {
     "title": "探索 Eco Parque West View",
-    "description": "探索哥伦比亚圣安德烈斯的顶级水上乐园，完美融合刺激水上活动与家庭乐趣的度假目的地。",
+    "description": "探索哥伦比亚圣安德烈斯岛的顶级天然生态公园，完美融合加勒比海水下生态与自然探险的度假目的地。",
     "visitGuide": {
       "title": "游览建议",
       "items": [
-        "上午游览：从圣安德烈斯市区出发，前往 Eco Parque West View，享受水上乐园乐趣",
-        "下午活动：继续体验水上设施，品尝园区美食，休息放松",
-        "傍晚时光：在园区内欣赏表演，体验当地夜生活"
+        "上午游览：趁人流较少时抵达，租用浮潜面罩探索清澈的海底世界和海神雕像",
+        "中午活动：在海岸岩石区享受日光浴，品尝特色椰子水",
+        "下午时光：体验海上滑梯和跳水台，随后在海岸边欣赏绝美的加勒比海日落后返程"
       ]
     },
     "alsoKnownAs": {
       "title": "核心亮点",
       "items": [
-        "刺激水上滑梯：拥有多个刺激的水上滑梯和游乐设施",
-        "大型游泳池：多个大型游泳池，适合全家一起享受水上乐趣",
-        "儿童游乐区：专门的儿童游乐区，适合带孩子的家庭游客"
+        "顶级浮潜体验：拥有水晶般清澈的海水，下水即可与五颜六色的热带鱼群共游",
+        "直通大海的滑梯与跳水台：体验从滑梯直接冲入加勒比海的刺激，或从专属跳水台上一跃而下",
+        "水下波塞冬雕像：潜入水中，探索隐藏在海底的海神波塞冬雕像，是不可错过的打卡点",
+        "生态与自然融合：保留了原始的岩石海岸风貌，提供躺椅、小吃吧等基础服务"
       ]
     }
   },
   "route": {
     "title": "游玩路线与实用建议",
-    "overview": "推荐按半日到一日的节奏游览，兼顾戏水、拍照和休息。",
+    "overview": "推荐按半日到一日的节奏游览，兼顾浮潜、跳水和自然放松。",
     "steps": [
-      "上午先到园区熟悉各区域，优先体验热门水上滑梯和主泳池，避开中午人流高峰。",
-      "中午在园区内或附近餐饮点补充体力，安排短暂休息，并注意补水与防晒。",
-      "下午继续体验儿童戏水区、浅水活动区或适合拍照的景观区域，适合家庭同行慢节奏游玩。"
+      "上午抵达园区，租用浮潜面罩和救生衣（建议自带），趁人较少时享受清澈的水下世界，探寻海底波塞冬雕像。",
+      "中午在海岸边的岩石休息区享受日光浴，品尝园区售卖的特色椰子水或当地小吃。",
+      "下午体验刺激的海上滑梯和跳水台，与朋友拍下跃入加勒比海的精彩瞬间。"
     ],
-    "supplementsTitle": "出行提示",
+    "supplementsTitle": "环保与出行提示",
     "supplements": [
-      "建议自备泳衣、拖鞋、毛巾和替换衣物，便于全天活动后及时整理。",
-      "圣安德烈斯日照较强，建议准备高倍防晒、太阳镜和足量饮用水。",
-      "如需了解门票、设施开放情况或特殊活动安排，请以现场公告或官方渠道信息为准。"
+      "为保护脆弱的海洋生态和珊瑚礁，请务必使用对珊瑚友好的（Reef-safe）防晒霜，或穿着长袖防晒服下水。",
+      "在海中浮潜时，绝对不要触摸或踩踏珊瑚及海洋生物。",
+      "天然海域受天气影响较大，游玩前请关注实时海况。提供淡水淋浴区供下水后冲洗。"
     ]
   },
   "basicInfo": {
@@ -59,11 +60,11 @@
     "officialName": "景点名称",
     "officialNameValue": "Eco Parque West View",
     "type": "景点类型",
-    "typeValue": "水上乐园",
+    "typeValue": "天然生态公园",
     "country": "国家",
     "countryValue": "哥伦比亚",
     "city": "城市",
-    "cityValue": "圣安德烈斯, 圣安德烈斯-普罗维登西亚省",
+    "cityValue": "圣安德烈斯岛",
     "googleRating": "谷歌评分",
     "address": "位置",
     "addressValue": "San Andrés, 哥伦比亚",
@@ -74,22 +75,22 @@
     "petFriendly": "宠物准入",
     "petFriendlyValue": "请咨询现场工作人员",
     "tickets": "营业时间",
-    "ticketsValue": "09:00–05:00",
+    "ticketsValue": "09:00 AM – 05:00 PM",
     "facilities": "实用设施",
-    "facilitiesValue": "水上滑梯、游泳池、儿童游乐区、餐厅"
+    "facilitiesValue": "浮潜装备租赁、救生衣提供、天然海上滑梯、跳水台、淡水淋浴区、海滨吧台"
   },
   "hours": {
     "title": "开放时间与游览建议",
     "outdoor": "营业时间",
-    "outdoorTime": "09:00–05:00",
+    "outdoorTime": "09:00 – 17:00",
     "lighthouse": "最佳游览时间",
     "summer": "上午和下午",
     "summerTime": "建议参考官方信息",
     "winter": "注意事项",
-    "winterTime": "携带防晒用品、泳衣和充足的水",
+    "winterTime": "携带珊瑚友好防晒霜、泳衣和充足的水",
     "warning": "动态天气提示",
-    "warningTime": "圣安德烈斯气候炎热，非常适合水上活动",
-    "tip": "园区内设有餐厅和小吃摊"
+    "warningTime": "圣安德烈斯气候炎热，海况平稳时非常适合浮潜",
+    "tip": "园区内提供储物柜、淋浴以及小吃服务"
   },
   "gallery": {
     "title": "精彩照片",
@@ -225,75 +226,75 @@
   },
   "officialManagement": {
     "title": "管理机构与权属说明",
-    "text": "Eco Parque West View 由当地旅游部门管理。"
+    "text": "Eco Parque West View 及周边海洋生态环境在圣安德烈斯政府和区域环保机构（如 CORALINA）的支持下进行管理，以保护这一独特的自然奇观。"
   },
   "historyTimeline": {
-    "title": "历史与发展",
+    "title": "生态与发展",
     "items": [
       {
-        "year": "早期",
-        "title": "起源：水上乐园建设",
-        "plaque": "旅游发展",
-        "description": "Eco Parque West View 最初是圣安德烈斯的一个水上乐园项目。"
+        "year": "早期风貌",
+        "title": "天然岩石海湾",
+        "plaque": "自然奇观",
+        "description": "Eco Parque West View 最初是圣安德烈斯岛上一处纯天然的岩石海湾，以其极其清澈的海水和丰富的热带鱼类闻名。"
       },
       {
-        "year": "发展期",
-        "title": "发展：设施建设",
-        "plaque": "旅游发展",
-        "description": "随着时间推移，乐园不断增加各种水上活动项目和设施。"
+        "year": "设施加建",
+        "title": "融入自然的改造",
+        "plaque": "游客体验",
+        "description": "为了方便游客安全下水，当地人沿着岩石海岸搭建了原生态的木制滑梯、跳水台和扶梯，形成了如今的经典风貌。"
       },
       {
-        "year": "现代",
-        "title": "现代：综合性水上乐园",
-        "plaque": "旅游发展",
-        "description": "如今，Eco Parque West View 已经成为圣安德烈斯的重要旅游景点。"
+        "year": "现代生态",
+        "title": "海洋保护与潜水胜地",
+        "plaque": "生态保护",
+        "description": "如今这里不仅是深受欢迎的浮潜胜地，更注重海洋生态的保护，并安放了标志性的水下波塞冬雕像供潜水者探索。"
       }
     ],
     "guideTitle": "游客导览建议",
-    "guideContent": "游客可以从圣安德烈斯市区出发，前往 Eco Parque West View，享受水上乐趣。"
+    "guideContent": "强烈建议租用高尔夫球车沿环岛公路（Circunvalar）自驾前往，沿途风景极佳，且公园外设有停车区。"
   },
   "transport": {
     "title": "交通指南",
     "airport": "✈️ 机场到景点路线",
-    "airportDesc": "圣安德烈斯有自己的机场，从机场可以乘坐出租车或公交前往乐园。",
-    "selfDrive": "自驾前往",
-    "selfDriveDesc": "可以租车自驾前往，圣安德烈斯岛上的道路状况良好。",
+    "airportDesc": "圣安德烈斯有自己的机场，从机场可以乘坐出租车或租车前往景点。",
+    "selfDrive": "🚗 自驾环岛游（核心推荐）",
+    "selfDriveDesc": "强烈建议租用高尔夫球车（Golf Carts）或摩托车沿环岛公路（Circunvalar）自驾前往，沿途海景极佳，且公园外设有停车区。",
     "bus": "🚌 公共交通",
-    "busDesc": "可以乘坐 local bus 前往乐园附近。",
+    "busDesc": "可以乘坐当地公交车（Local Bus）在环岛路上的 West View 站点下车。",
     "intercity": "岛内交通",
-    "intercityDesc": "圣安德烈斯岛上可以租用高尔夫球车或自行车游览。",
+    "intercityDesc": "圣安德烈斯岛上最流行的交通方式就是租用高尔夫球车或小摩托自由环岛。",
     "cycling": "其他方式",
-    "cyclingDesc": "可以步行或租用交通工具游览。",
+    "cyclingDesc": "对于住在附近的游客，也可骑自行车前往。",
     "tips": "出行建议",
-    "tipsDesc": "建议提前规划好行程和住宿。"
+    "tipsDesc": "建议预留充足的环岛游玩时间，并在出发前准备好防晒用品和浮潜装备。"
   },
   "tickets": {
-    "title": "门票信息",
-    "outdoor": "营业时间",
-    "outdoorPrice": "09:00–05:00",
-    "lighthouse": "门票价格",
-    "adults": "成人",
-    "adultsPrice": "请咨询现场",
-    "students": "儿童",
-    "studentsPrice": "请咨询现场",
+    "title": "门票与价格预估",
+    "outdoor": "生态入场费",
+    "outdoorPrice": "8,000 - 10,000 COP",
+    "lighthouse": "装备租赁 (可选)",
+    "adults": "浮潜面罩",
+    "adultsPrice": "约 5,000 COP",
+    "students": "救生衣",
+    "studentsPrice": "约 5,000 COP",
     "card": "购票方式",
-    "cardPrice": "现场购票或在线预订",
+    "cardPrice": "仅限现场现金购票，价格通常包含少量喂鱼面包，具体以现场为准",
     "officialNotice": "获取最新信息，请查阅",
-    "officialNoticeLinkLabel": "官方网站",
+    "officialNoticeLinkLabel": "官方地图与评价",
     "officialNoticeLink": "https://maps.app.goo.gl/yUsqkGAHwLbrpgsr8"
   },
   "knowledge": {
-    "title": "发现 Eco Parque West View 的魅力",
+    "title": "发现 Eco Parque West View 的天然魅力",
     "sections": [
       {
         "id": "waterpark",
-        "title": "水上乐园功能",
-        "content": "作为水上乐园，这里提供各种刺激的水上活动设施。"
+        "title": "天然海湾体验",
+        "content": "与传统人工水上乐园不同，West View 是一处浑然天成的天然海湾。这里保留了加勒比海原始的生态面貌，游客可以直接跃入海中，在真实的海洋环境中游泳和浮潜。"
       },
       {
         "id": "location",
         "title": "地理位置与交通",
-        "content": "Eco Parque West View 位于哥伦比亚圣安德烈斯，交通便利。"
+        "content": "Eco Parque West View 位于哥伦比亚圣安德烈斯岛西侧的环岛公路上，交通便利，是环岛自驾游必不可少的一站。"
       }
     ]
   }

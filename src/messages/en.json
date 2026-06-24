@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Eco Parque West View | Water Park in San Andrés, Colombia",
-    "description": "Explore Eco Parque West View, a water park in San Andrés, Colombia, and enjoy exciting water activities and family fun."
+    "title": "Eco Parque West View | Natural Eco Park in San Andrés, Colombia",
+    "description": "Explore Eco Parque West View, a top snorkeling destination in San Andrés, Colombia. Enjoy Caribbean underwater ecology and diving fun."
   },
   "header": {
     "siteName": "Eco Parque West View",
@@ -13,64 +13,65 @@
   },
   "hero": {
     "title": "Eco Parque West View",
-    "subtitle": "Top Water Park in San Andrés",
+    "subtitle": "Top Snorkeling Destination in San Andrés",
     "rating": "4.6",
     "reviewCount": "6,290",
-    "hours": "Water Park",
+    "hours": "Natural Eco Park",
     "openMaps": "View Location"
   },
   "intro": {
-    "title": "Explore Playa Arboletes",
-    "description": "Discover the coastal gem of Antioquia, Colombia — a top-tier vacation destination that perfectly blends natural wonders with family water fun.\n\nLocated on the Caribbean coast in the Antioquia department, Playa Arboletes is a rare tourist destination that perfectly combines 'pristine natural wonders' with 'large-scale artificial entertainment facilities.'\n\nNot only does it boast expansive beaches with crystal-clear water and fine sand, but right at the edge of the beach sits a stunning castle-themed water resort (often called 'Colombia's Disney' by locals). Moreover, within walking distance lies the world-famous natural coastal mud volcano. Whether you're a thrill-seeker looking for water activities or a wellness traveler craving a natural mineral mud bath, you'll find your perfect vacation here.",
+    "title": "Explore Eco Parque West View",
+    "description": "Discover the top natural eco park on San Andrés Island, Colombia — a perfect vacation destination blending Caribbean underwater ecology with natural adventure.\n\nUnlike traditional artificial water parks, West View is a completely natural cove. It features crystal-clear waters perfect for snorkeling, an iconic wooden slide straight into the sea, a diving trampoline, and a hidden underwater Poseidon statue.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
-        "🌞 Morning Tour: Start from Arboletes town center ➔ Head to Playa Arboletes ➔ Enjoy beach sunshine",
-        "🌙 Afternoon Water Activities: Participate in water park activities ➔ Taste local cuisine ➔ Experience seaside life",
-        "🎉 Evening Time: Watch sunset on the beach ➔ Experience local nightlife"
+        "🌞 Morning Tour: Arrive early to avoid crowds. Rent a snorkeling mask to explore the clear underwater world and the Poseidon statue.",
+        "🌴 Midday Activities: Sunbathe on the rocky coastal rest area and enjoy fresh coconut water.",
+        "🌊 Afternoon Time: Experience the sea slide and diving trampoline, then enjoy the stunning Caribbean sunset before heading back."
       ]
     },
     "alsoKnownAs": {
       "title": "Core Highlights",
       "items": [
-        "🏰 Landmark Castle Water Park (Riviera del Sol): A massive castle-themed water resort built right next to the beach. It features multiple gigantic azure pools, thrilling water slides, an interactive pirate ship area, and unique mythical sculptures, making it a perfect landmark for family trips and photography.",
-        "🌋 World-Class Natural Mud Volcano (Volcán de Lodo): The mud volcano near the beach is the region's most unique natural gift. Visitors can jump into the crater to experience a high-buoyancy, warm mud bath and enjoy a natural spa rich in minerals.",
-        "🌊 Caribbean Beach & Sand Sculpture Art: The broad, gently sloping beach is perfect for strolling and enjoying magnificent sea sunsets. You can often find exquisite sand sculptures of marine life (like dolphins and turtles) created by local artists, full of rich Colombian coastal charm."
+        "🐠 Top Snorkeling Experience: Features crystal-clear waters where you can swim alongside schools of colorful tropical fish as soon as you enter.",
+        "🌊 Natural Sea Slide & Trampoline: Experience the thrill of sliding directly into the Caribbean Sea, or jump from the dedicated diving platform.",
+        "🔱 Underwater Poseidon Statue: Dive into the water to discover the hidden Poseidon statue, a must-see underwater photo spot.",
+        "🥥 Eco & Nature Integration: Preserves the original rocky coastal landscape while offering basic services like lounge chairs and a snack bar."
       ]
     }
   },
   "route": {
     "title": "💡 Pro Tips & Itinerary",
-    "overview": "Perfect One-Day Itinerary:",
+    "overview": "Recommended Half-Day to Full-Day Itinerary:",
     "steps": [
-      "Morning (Mud Bath & Beach): Head to the mud volcano early for a natural mud bath, then walk directly into the Caribbean Sea to wash off in the warm water, leaving your skin incredibly smooth.",
-      "Afternoon (Water Park Fun): Enter the castle water park by the beach, swim in the giant pools, and experience the water slides and various entertainment facilities.",
-      "Evening (Sunset & Food): Return to the beach to find the best spot near the sand sculptures to photograph the Caribbean sunset. Afterwards, enjoy an authentic Colombian seafood feast at a nearby restaurant."
+      "Morning: Arrive at the park, rent a snorkeling mask and life jacket (or bring your own), and enjoy the clear underwater world and Poseidon statue while it's less crowded.",
+      "Midday: Relax and sunbathe on the rocky coastal area, and taste the local coconut water or snacks sold in the park.",
+      "Afternoon: Experience the thrilling sea slide and diving trampoline, and capture the exciting moments of jumping into the Caribbean Sea with friends."
     ],
-    "supplementsTitle": "Practical Tips",
+    "supplementsTitle": "Eco & Travel Tips",
     "supplements": [
-      "Clothing: When experiencing the mud volcano, be sure to wear an old swimsuit you don't mind getting dirty. The mud has extreme buoyancy, so you can float easily and safely even if you can't swim.",
-      "Sun Protection & Hydration: The local climate is hot with strong sunlight. Please carry high-SPF eco-friendly sunscreen, sunglasses, and plenty of drinking water.",
-      "Washing Services: After the mud bath, in addition to washing in the sea, local residents offer freshwater washing services on the beach. It's very convenient to have some small Colombian Peso (COP) bills ready for tips."
+      "To protect the fragile marine ecology and coral reefs, please use reef-safe sunscreen or wear long-sleeved rash guards when entering the water.",
+      "When snorkeling in the sea, never touch or step on corals and marine life.",
+      "Natural waters are greatly affected by the weather; please check real-time sea conditions before visiting. Freshwater showers are available for rinsing off after swimming."
     ]
   },
   "knowledge": {
-    "title": "Discover the Charm of Playa Arboletes",
+    "title": "Discover the Natural Charm of Eco Parque West View",
     "sections": [
       {
         "id": "beach",
-        "title": "Beach & Culture",
-        "content": "Playa Arboletes is an important tourist attraction in Arboletes, carrying the development function of local tourism. It has beautiful beaches and warm waters, making it an ideal place to experience Colombian seaside culture."
+        "title": "Natural Cove Experience",
+        "content": "Unlike traditional artificial water parks, West View is a completely natural cove. It preserves the pristine ecological landscape of the Caribbean Sea, allowing visitors to dive directly into the water and snorkel in a real marine environment."
       },
       {
         "id": "waterpark",
-        "title": "Water Park Function",
-        "content": "As a tourist attraction and seaside water park, this is not only a leisure place for tourists, but also an important venue for local residents and tourists to enjoy water activities. The park embodies the vitality and fun of Colombian seaside tourism."
+        "title": "Eco-Friendly Facilities",
+        "content": "The park provides essential facilities like wooden sea slides, diving trampolines, and freshwater showers, seamlessly integrated into the natural rocky coastline."
       },
       {
         "id": "location",
         "title": "Location & Transportation",
-        "content": "Playa Arboletes is located in Arboletes, Antioquia, Colombia, with convenient transportation, making it an ideal choice for seaside tourism in Colombia."
+        "content": "Eco Parque West View is located on the Circunvalar (ring road) on the west side of San Andrés Island, making it an essential stop for a self-drive island tour."
       }
     ]
   },
@@ -79,14 +80,14 @@
     "officialName": "Official Name",
     "officialNameValue": "Eco Parque West View",
     "type": "Attraction Type",
-    "typeValue": "Water Park",
+    "typeValue": "Natural Eco Park",
     "country": "Country",
     "countryValue": "Colombia",
     "city": "City",
-    "cityValue": "San Andrés, San Andrés-Providencia",
+    "cityValue": "San Andrés Island",
     "googleRating": "Google Rating",
     "address": "Address",
-    "addressValue": "San Andrés, San Andres and Providencia, Colombia",
+    "addressValue": "San Andrés, Colombia",
     "plusCode": "Plus Code",
     "plusCodeValue": "G7CC+C9",
     "phone": "Phone",
@@ -94,52 +95,52 @@
     "petFriendly": "Pet Friendly",
     "petFriendlyValue": "Please consult on-site staff",
     "tickets": "Business Hours",
-    "ticketsValue": "09:00–05:00",
+    "ticketsValue": "09:00 AM – 05:00 PM",
     "facilities": "Facilities",
-    "facilitiesValue": "Water slides, swimming pools, children's play area, restaurants"
+    "facilitiesValue": "Snorkel rentals, life jackets, natural sea slide, diving board, freshwater showers, beach bar"
   },
   "hours": {
     "title": "Opening Hours & Visitor Info",
     "outdoor": "Business Hours",
-    "outdoorTime": "Beach open all day; water park and main facilities approx. 09:00–21:00",
+    "outdoorTime": "09:00 – 17:00",
     "lighthouse": "Best Visiting Time",
-    "summer": "Morning and evening",
-    "summerTime": "(Depends on weather and season, please refer to Google Maps)",
+    "summer": "Morning and afternoon",
+    "summerTime": "(Depends on weather and sea conditions)",
     "winter": "Notes",
-    "winterTime": "Bring sunscreen, swimwear and plenty of water",
+    "winterTime": "Bring reef-safe sunscreen, swimwear and plenty of water",
     "warning": "💡 Dynamic Weather Tip",
-    "warningTime": "Arboletes has a hot climate, perfect for beach activities. We recommend bringing sunscreen and plenty of water.",
-    "tip": "There are many local snack stalls and restaurants near the beach, where you can taste authentic Colombian seaside cuisine."
+    "warningTime": "San Andrés has a hot climate. It is perfect for snorkeling when the sea is calm.",
+    "tip": "The park offers lockers, showers, and a snack bar."
   },
   "tickets": {
-    "title": "Important Information",
-    "outdoor": "Admission Fee",
-    "outdoorPrice": "Please consult on-site",
-    "lighthouse": "Transportation Info",
-    "adults": "From Medellín",
-    "adultsPrice": "Take a bus approx. 5-6 hours",
-    "students": "Recommended Visit Duration",
-    "studentsPrice": "Half day to one day",
-    "card": "Nearby Attractions",
-    "cardPrice": "Arboletes town center, other beaches. 👉 [Go to Arboletes]",
+    "title": "Tickets & Estimated Prices",
+    "outdoor": "Eco Entrance Fee",
+    "outdoorPrice": "8,000 - 10,000 COP",
+    "lighthouse": "Equipment Rental (Optional)",
+    "adults": "Snorkel Mask",
+    "adultsPrice": "Approx. 5,000 COP",
+    "students": "Life Jacket",
+    "studentsPrice": "Approx. 5,000 COP",
+    "card": "Payment Method",
+    "cardPrice": "Cash only on-site. Price usually includes a small piece of bread to feed the fish.",
     "officialNotice": "For the latest updates, please refer to the",
-    "officialNoticeLinkLabel": "Official Website of Arboletes Municipality",
-    "officialNoticeLink": "https://www.arboletes-antioquia.gov.co/"
+    "officialNoticeLinkLabel": "Official Map & Reviews",
+    "officialNoticeLink": "https://maps.app.goo.gl/yUsqkGAHwLbrpgsr8"
   },
   "transport": {
     "title": "How to Get There",
-    "airport": "✈️ Airport to Landmark (Core Recommendation)",
-    "airportDesc": "The closest airport to Playa Arboletes is Los Garzones Airport (MTR) in Montería. Upon arrival, you can take a taxi or local minibus (Colectivos) heading northwest by road. The journey is about 80 km on good roads and takes only 1.5 to 2 hours directly to the town center and beach area. This is the most efficient way to arrive.",
-    "selfDrive": "Driving",
-    "selfDriveDesc": "From Medellín, follow the road for about 5-6 hours to reach Arboletes. Playa Arboletes is located in the town.",
-    "bus": "🚌 Intercity Bus / Driving (From Medellín)",
-    "busDesc": "If departing from Medellín, you'll need to cross mountainous terrain, making the journey longer (about 8-10 hours). It's recommended to make this route part of a deep road trip or choose a luxury night bus. For those looking to save time, the 'fly to Montería' option is highly recommended.",
-    "intercity": "Within the Town",
-    "intercityDesc": "Playa Arboletes is located in Arboletes town, easily accessible from the town center.",
+    "airport": "✈️ Airport to Landmark",
+    "airportDesc": "San Andrés has its own airport. You can take a taxi or rent a vehicle from the airport to the attraction.",
+    "selfDrive": "🚗 Self-Drive Island Tour (Highly Recommended)",
+    "selfDriveDesc": "It is highly recommended to rent a golf cart or scooter and drive along the Circunvalar (ring road). The coastal views are excellent, and there is a parking area outside the park.",
+    "bus": "🚌 Local Bus",
+    "busDesc": "You can take a local bus and get off at the West View stop on the ring road.",
+    "intercity": "Island Transportation",
+    "intercityDesc": "The most popular way to get around San Andrés Island is renting a golf cart or scooter for a flexible island tour.",
     "cycling": "Other Options",
-    "cyclingDesc": "You can rent transportation in town or walk to explore and better appreciate the seaside scenery.",
+    "cyclingDesc": "Visitors staying nearby can also ride a bicycle.",
     "tips": "Travel Tips",
-    "tipsDesc": "The journey from Medellín is long. It is recommended to plan your itinerary and accommodation in advance."
+    "tipsDesc": "Plan enough time for your island tour and prepare sunscreen and snorkeling gear before heading out."
   },
   "gallery": {
     "title": "Stunning Photos",
@@ -306,33 +307,33 @@
     ]
   },
   "historyTimeline": {
-    "title": "Historical Timeline",
+    "title": "Ecology & Development",
     "items": [
       {
         "year": "Early Days",
-        "title": "Origins: Natural Beach",
-        "plaque": "Natural Beauty",
-        "description": "Playa Arboletes was originally a natural beach in Arboletes, gradually becoming popular among local residents and tourists for its beautiful sea views and warm waters."
+        "title": "Natural Rocky Cove",
+        "plaque": "Natural Wonder",
+        "description": "Eco Parque West View was originally a completely natural rocky cove on San Andrés Island, famous for its exceptionally clear waters and abundant tropical fish."
       },
       {
-        "year": "Development Period",
-        "title": "Development: Tourism Facilities Construction",
-        "plaque": "Tourism Development",
-        "description": "Over time, tourism in Arboletes continued to develop. Playa Arboletes gradually added various tourism facilities and water activity projects, becoming an important tourist attraction in the area."
+        "year": "Facility Addition",
+        "title": "Nature-Integrated Renovation",
+        "plaque": "Visitor Experience",
+        "description": "To facilitate safe water entry for visitors, locals built rustic wooden slides, diving boards, and handrails along the rocky coast, creating its classic appearance today."
       },
       {
-        "year": "Modern Era",
-        "title": "Modern: Comprehensive Seaside Park",
-        "plaque": "Tourism Development (Seaside Park)",
-        "description": "Today, Playa Arboletes has become a comprehensive tourism destination combining beach leisure and water park, receiving more recognition and love from tourists."
+        "year": "Modern Ecology",
+        "title": "Marine Conservation & Diving Hub",
+        "plaque": "Eco Protection",
+        "description": "Today, it is not only a popular snorkeling destination but also emphasizes marine ecological protection, featuring the iconic underwater Poseidon statue for divers to explore."
       }
     ],
     "guideTitle": "Visitor Guide Tip",
-    "guideContent": "When visiting, you can start from Arboletes town center and head to Playa Arboletes; enjoy beach sunshine and sea water; participate in various activities at the water park; taste local cuisine at nearby restaurants; if you have enough time, you can also continue exploring other attractions in Arboletes."
+    "guideContent": "It is highly recommended to rent a golf cart and drive along the Circunvalar (ring road). The scenery along the way is spectacular, and parking is available outside the park."
   },
   "officialManagement": {
     "title": "Management & Ownership",
-    "text": "Playa Arboletes and the surrounding natural mud volcano are primarily managed and maintained by the Municipality of Arboletes (Alcaldía de Arboletes). The ecological environment is supervised by the Antioquia department and regional environmental agencies (such as CORPOURABA) to protect this unique natural wonder. The artificial entertainment resorts, such as the castle water park (Riviera del Sol), are independently operated and managed by private enterprises."
+    "text": "Eco Parque West View and the surrounding marine environment are managed with the support of the San Andrés government and regional environmental agencies (such as CORALINA) to protect this unique natural wonder."
   },
   "cookieSettings": {
     "title": "Cookie Settings",

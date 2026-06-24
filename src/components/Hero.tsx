@@ -42,6 +42,10 @@ export default function Hero() {
               </svg>
               <span className="text-white text-sm">{t('hours')}</span>
             </div>
+            {/* Dynamic Weather Widget Placeholder */}
+            <div className="flex items-center gap-1.5 bg-blue-500/30 backdrop-blur-sm rounded-full px-4 py-2 border border-blue-400/50">
+              <span className="text-white text-sm">🌊 适合浮潜 / Good for Snorkeling</span>
+            </div>
             <a
               href={mapsUrl}
               target="_blank"

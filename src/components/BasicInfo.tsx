@@ -26,7 +26,9 @@ export default function BasicInfo() {
           <InfoCard title={t('city')} value={t('cityValue')} icon="🏙️" />
           <InfoCard title={t('plusCode')} value={t('plusCodeValue')} icon="🗺️" />
           <InfoCard title={t('googleRating')} value={`${tHero('rating')}/5 (${tHero('reviewCount')})`} icon="⭐" />
-          <InfoCard title={t('facilities')} value={t('facilitiesValue')} icon="♿" />
+          <div className="md:col-span-3">
+            <InfoCard title={t('facilities')} value={t('facilitiesValue')} icon="🤿 🛟 🚿 🍹" />
+          </div>
           <div className="md:col-span-3">
             <InfoCard title={t('address')} value={t('addressValue')} icon="📌" />
           </div>

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Playa Arboletes | Parque Acuático Marítimo en Arboletes, Colombia",
-    "description": "Explora la Playa Arboletes, una atracción turística en Arboletes, Antioquia, Colombia, y experimenta la hermosa playa y la diversión del parque acuático."
+    "title": "Eco Parque West View | Parque Ecológico Natural en San Andrés, Colombia",
+    "description": "Explora Eco Parque West View, un destino de esnórquel de primer nivel en San Andrés, Colombia. Disfruta de la ecología submarina del Caribe."
   },
   "header": {
-    "siteName": "Playa Arboletes",
+    "siteName": "Eco Parque West View",
     "home": "Inicio",
     "gallery": "Galería",
     "reviews": "Reseñas",
@@ -12,134 +12,135 @@
     "backToHome": "Volver al Inicio"
   },
   "hero": {
-    "title": "Playa Arboletes",
-    "subtitle": "Playa del Caribe, Volcán de Lodo Natural y Parque Acuático de Ensueño",
-    "rating": "4.5",
-    "reviewCount": "6,770",
-    "hours": "Playa Natural / Parque Acuático / Volcán de Lodo Ecológico",
+    "title": "Eco Parque West View",
+    "subtitle": "Destino de Esnórquel de Primer Nivel en San Andrés",
+    "rating": "4.6",
+    "reviewCount": "6,290",
+    "hours": "Parque Ecológico Natural",
     "openMaps": "Ver Ubicación"
   },
   "intro": {
-    "title": "Explora Playa Arboletes",
-    "description": "Descubre la joya costera de Antioquia, Colombia — un destino vacacional de primer nivel que combina a la perfección maravillas naturales con diversión acuática familiar.\n\nUbicada en la costa caribeña del departamento de Antioquia, Playa Arboletes es un destino turístico raro que combina a la perfección 'maravillas naturales vírgenes' con 'grandes instalaciones de entretenimiento artificial'.\n\nNo solo cuenta con amplias playas de aguas cristalinas y arena fina, sino que justo en el borde de la playa se encuentra un impresionante resort acuático temático de castillos (a menudo llamado el 'Disney de Colombia' por los lugareños). Además, a poca distancia a pie se encuentra el mundialmente famoso volcán de lodo costero natural. Ya sea que busques emociones en actividades acuáticas o seas un viajero de bienestar que anhela un baño de lodo mineral natural, aquí encontrarás tus vacaciones perfectas.",
+    "title": "Explora Eco Parque West View",
+    "description": "Descubre el principal parque ecológico natural en la isla de San Andrés, Colombia — un destino vacacional perfecto que combina la ecología submarina del Caribe con la aventura natural.\n\nA diferencia de los parques acuáticos artificiales tradicionales, West View es una cala completamente natural. Cuenta con aguas cristalinas perfectas para el esnórquel, un icónico tobogán de madera directo al mar, un trampolín de salto y una estatua submarina oculta de Poseidón.",
     "visitGuide": {
       "title": "Consejos de Visita",
       "items": [
-        "🌞 Tour Matutino: Comenzar desde el centro del pueblo de Arboletes ➔ Dirigirse a la Playa Arboletes ➔ Disfrutar del sol de la playa",
-        "🌙 Actividades Acuáticas por la Tarde: Participar en actividades del parque acuático ➔ Probar la cocina local ➔ Experimentar la vida marítima",
-        "🎉 Tiempo de Atardecer: Ver el atardecer en la playa ➔ Experimentar la vida nocturna local"
+        "🌞 Tour Matutino: Llegue temprano para evitar multitudes. Alquile una máscara de esnórquel para explorar el mundo submarino y la estatua de Poseidón.",
+        "🌴 Actividades al Mediodía: Tome el sol en la zona de descanso rocosa y disfrute de agua de coco fresca.",
+        "🌊 Tiempo de Tarde: Experimente el tobogán marino y el trampolín, luego disfrute del impresionante atardecer caribeño."
       ]
     },
     "alsoKnownAs": {
       "title": "Aspectos Destacados",
       "items": [
-        "🏰 Parque Acuático Castillo (Riviera del Sol): Un enorme complejo acuático temático de castillos construido justo al lado de la playa. Cuenta con múltiples piscinas azules gigantes, emocionantes toboganes de agua, un área interactiva de barco pirata y esculturas míticas únicas, lo que lo convierte en un hito perfecto para viajes familiares y fotografías.",
-        "🌋 Volcán de Lodo Natural de Clase Mundial: El volcán de lodo cerca de la playa es el regalo natural más singular de la región. Los visitantes pueden saltar al cráter para experimentar un baño de lodo cálido y de alta flotabilidad, y disfrutar de un spa natural rico en minerales.",
-        "🌊 Playa del Caribe y Arte en Arena: La playa amplia y de suave pendiente es perfecta para pasear y disfrutar de magníficos atardeceres en el mar. A menudo se pueden encontrar exquisitas esculturas de arena de vida marina (como delfines y tortugas) creadas por artistas locales, llenas de rico encanto costero colombiano."
+        "🐠 Experiencia de Esnórquel de Primer Nivel: Cuenta con aguas cristalinas donde puedes nadar junto a bancos de coloridos peces tropicales.",
+        "🌊 Tobogán Marino Natural y Trampolín: Siente la emoción de deslizarte directamente hacia el Mar Caribe, o salta desde la plataforma de clavados.",
+        "🔱 Estatua Submarina de Poseidón: Sumérgete para descubrir la estatua oculta de Poseidón, un punto de fotografía submarina imperdible.",
+        "🥥 Integración Ecológica: Conserva el paisaje rocoso original de la costa mientras ofrece servicios básicos como tumbonas y un bar de aperitivos."
       ]
     }
   },
   "route": {
     "title": "💡 Consejos y Itinerario",
-    "overview": "Itinerario Perfecto de Un Día:",
+    "overview": "Itinerario Recomendado de Medio Día a Un Día:",
     "steps": [
-      "Mañana (Baño de Lodo y Playa): Dirígete temprano al volcán de lodo para un baño de lodo natural, luego camina directamente hacia el Mar Caribe para lavarte en el agua tibia, dejando tu piel increíblemente suave.",
-      "Tarde (Diversión en el Parque Acuático): Entra al parque acuático del castillo junto a la playa, nada en las piscinas gigantes y experimenta los toboganes y diversas instalaciones de entretenimiento.",
-      "Noche (Atardecer y Comida): Regresa a la playa para encontrar el mejor lugar cerca de las esculturas de arena para fotografiar el atardecer caribeño. Luego, disfruta de un auténtico festín de mariscos colombianos en un restaurante cercano."
+      "Mañana: Llegue al parque, alquile una máscara de esnórquel y un chaleco salvavidas, y disfrute del mundo submarino y la estatua de Poseidón.",
+      "Mediodía: Relájese y tome el sol en la zona rocosa de la costa, y pruebe el agua de coco o los aperitivos locales.",
+      "Tarde: Experimente el emocionante tobogán marino y el trampolín, y capture los momentos emocionantes saltando al Mar Caribe."
     ],
-    "supplementsTitle": "Consejos Prácticos",
+    "supplementsTitle": "Consejos Ecológicos y de Viaje",
     "supplements": [
-      "Ropa: Al experimentar el volcán de lodo, asegúrate de usar un traje de baño viejo que no te importe ensuciar. El lodo tiene una flotabilidad extrema, por lo que puedes flotar de manera fácil y segura incluso si no sabes nadar.",
-      "Protección Solar e Hidratación: El clima local es cálido con fuerte luz solar. Por favor, lleva protector solar ecológico de alto FPS, gafas de sol y mucha agua potable.",
-      "Servicios de Lavado: Después del baño de lodo, además de lavarte en el mar, los residentes locales ofrecen servicios de lavado con agua dulce en la playa. Es muy conveniente tener listos algunos billetes pequeños de pesos colombianos (COP) para propinas."
+      "Para proteger la frágil ecología marina y los arrecifes de coral, use protector solar seguro para arrecifes (Reef-safe) o use ropa de manga larga.",
+      "Al hacer esnórquel en el mar, nunca toque ni pise los corales ni la vida marina.",
+      "Las aguas naturales se ven muy afectadas por el clima; consulte las condiciones del mar en tiempo real antes de visitar. Hay duchas de agua dulce disponibles."
     ]
   },
   "knowledge": {
-    "title": "Descubre el Encanto de la Playa Arboletes",
+    "title": "Descubre el Encanto Natural de Eco Parque West View",
     "sections": [
       {
         "id": "beach",
-        "title": "Playa y Cultura",
-        "content": "La Playa Arboletes es una atracción turística importante en Arboletes, llevando la función del desarrollo turístico local. Tiene hermosas playas y aguas cálidas, lo que la convierte en un lugar ideal para experimentar la cultura marítima colombiana."
+        "title": "Experiencia en Cala Natural",
+        "content": "A diferencia de los parques acuáticos artificiales tradicionales, West View es una cala completamente natural. Conserva el paisaje ecológico prístino del Mar Caribe, permitiendo a los visitantes sumergirse directamente y hacer esnórquel en un entorno marino real."
       },
       {
         "id": "waterpark",
-        "title": "Función del Parque Acuático",
-        "content": "Como una atracción turística y parque acuático marítimo, este no es solo un lugar de ocio para turistas, sino también un lugar importante para que los residentes locales y turistas disfruten de actividades acuáticas. El parque encarna la vitalidad y diversión del turismo marítimo colombiano."
+        "title": "Instalaciones Ecológicas",
+        "content": "El parque ofrece instalaciones esenciales como toboganes de madera, trampolines y duchas de agua dulce, integrados perfectamente en la costa rocosa natural."
       },
       {
         "id": "location",
         "title": "Ubicación y Transporte",
-        "content": "La Playa Arboletes está ubicada en Arboletes, Antioquia, Colombia, con transporte conveniente, lo que la convierte en una opción ideal para el turismo marítimo en Colombia."
+        "content": "Eco Parque West View está ubicado en la Circunvalar (carretera de circunvalación) en el lado oeste de la isla de San Andrés, siendo una parada esencial para un tour por la isla en vehículo propio."
       }
     ]
   },
   "basicInfo": {
     "title": "Datos Rápidos",
     "officialName": "Nombre Oficial",
-    "officialNameValue": "Playa Arboletes",
+    "officialNameValue": "Eco Parque West View",
     "type": "Tipo de Atracción",
-    "typeValue": "Playa Natural / Parque Acuático / Volcán de Lodo Ecológico",
+    "typeValue": "Parque Ecológico Natural",
     "country": "País",
     "countryValue": "Colombia",
     "city": "Ciudad",
-    "cityValue": "Arboletes, Antioquia",
+    "cityValue": "Isla de San Andrés",
     "googleRating": "Calificación de Google",
     "address": "Dirección",
-    "addressValue": "Cl. 31 #3246, Arboletes, Antioquia, Colombia",
+    "addressValue": "San Andrés, Colombia",
     "plusCode": "Código Plus",
-    "plusCodeValue": "VH4F+25",
+    "plusCodeValue": "G7CC+C9",
     "phone": "Teléfono",
-    "phoneValue": "N/A",
+    "phoneValue": "+57 85129588",
     "petFriendly": "Mascotas permitidas",
     "petFriendlyValue": "Por favor consulte al personal en el sitio",
     "tickets": "Entradas",
-    "ticketsValue": "La playa pública es gratuita; el parque acuático/resort y los servicios de lavado del volcán de lodo requieren consulta en el lugar para conocer los precios.",
+    "ticketsValue": "09:00 AM – 05:00 PM",
     "facilities": "Instalaciones",
-    "facilitiesValue": "Baños públicos cercanos, restaurantes y estacionamiento"
+    "facilitiesValue": "Alquiler de esnórquel, chalecos salvavidas, tobogán natural, trampolín, duchas de agua dulce, bar de playa"
   },
   "hours": {
     "title": "Horarios y Consejos para Visitantes",
     "outdoor": "Horario Comercial",
-    "outdoorTime": "Playa abierta todo el día; parque acuático e instalaciones principales aprox. 09:00–21:00",
+    "outdoorTime": "09:00 – 17:00",
     "lighthouse": "Mejor Momento de Visita",
-    "summer": "Mañana y atardecer",
-    "summerTime": "(Depende del clima y la temporada, consulte Google Maps)",
+    "summer": "Mañana y tarde",
+    "summerTime": "(Depende del clima y las condiciones del mar)",
     "winter": "Notas",
-    "winterTime": "Traiga protector solar, traje de baño y abundante agua",
+    "winterTime": "Traiga protector solar Reef-safe, traje de baño y abundante agua",
     "warning": "💡 Clima Dinámico",
-    "warningTime": "Arboletes tiene un clima cálido, ideal para actividades de playa. Recomendamos traer protector solar y abundante agua.",
-    "tip": "Hay muchos puestos de comida local y restaurantes cerca de la playa, donde puede probar auténtica cocina marítima colombiana."
+    "warningTime": "San Andrés tiene un clima cálido. Es perfecto para hacer esnórquel cuando el mar está en calma.",
+    "tip": "El parque ofrece casilleros, duchas y un bar de aperitivos."
   },
   "tickets": {
-    "title": "Información Importante",
-    "outdoor": "Tarifa de Entrada",
-    "outdoorPrice": "Por favor consulte en el sitio",
-    "lighthouse": "Información de Transporte",
-    "adults": "Desde Medellín",
-    "adultsPrice": "Tomar un bus aprox. 5-6 horas",
-    "students": "Duración Recomendada de Visita",
-    "studentsPrice": "Medio día a un día",
-    "card": "Atracciones Cercanas",
-    "cardPrice": "Centro del pueblo de Arboletes, otras playas. 👉 [Ir a Arboletes]",
+    "title": "Entradas y Precios Estimados",
+    "outdoor": "Tarifa de Entrada Eco",
+    "outdoorPrice": "8,000 - 10,000 COP",
+    "lighthouse": "Alquiler de Equipo (Opcional)",
+    "adults": "Máscara de Esnórquel",
+    "adultsPrice": "Aprox. 5,000 COP",
+    "students": "Chaleco Salvavidas",
+    "studentsPrice": "Aprox. 5,000 COP",
+    "card": "Método de Pago",
+    "cardPrice": "Solo efectivo en el lugar. El precio suele incluir un pequeño trozo de pan para alimentar a los peces.",
     "officialNotice": "Para obtener las últimas actualizaciones, consulte el",
-    "officialNoticeLinkLabel": "Sitio Web Oficial de la Alcaldía de Arboletes",
-    "officialNoticeLink": "https://www.arboletes-antioquia.gov.co/"
+    "officialNoticeLinkLabel": "Mapa Oficial y Reseñas",
+    "officialNoticeLink": "https://maps.app.goo.gl/yUsqkGAHwLbrpgsr8"
   },
   "transport": {
     "title": "Cómo Llegar",
-    "airport": "✈️ Aeropuerto al Destino (Recomendación Principal)",
-    "airportDesc": "El aeropuerto más cercano a Playa Arboletes es el Aeropuerto Los Garzones (MTR) en Montería. Al llegar, puedes tomar un taxi o minibús local (Colectivos) en dirección noroeste por carretera. El viaje es de unos 80 km por buenas carreteras y toma solo de 1.5 a 2 horas directamente al centro del pueblo y la zona de la playa. Esta es la forma más eficiente de llegar.",
-    "selfDrive": "En Coche",
-    "selfDriveDesc": "Desde Medellín, siga el camino por aproximadamente 5-6 horas para llegar a Arboletes. La Playa Arboletes está ubicada en el pueblo.",
-    "bus": "🚌 Autobús Intermunicipal / Conducción (Desde Medellín)",
-    "busDesc": "Si sales desde Medellín, deberás cruzar terreno montañoso, lo que hace que el viaje sea más largo (alrededor de 8-10 horas). Se recomienda hacer de esta ruta parte de un viaje por carretera profundo o elegir un autobús nocturno de lujo. Para aquellos que buscan ahorrar tiempo, se recomienda encarecidamente la opción de 'volar a Montería'.",
-    "intercity": "Dentro del Pueblo",
-    "intercityDesc": "La Playa Arboletes está ubicada en el pueblo de Arboletes, fácilmente accesible desde el centro del pueblo.",
+    "airport": "✈️ Aeropuerto al Destino",
+    "airportDesc": "San Andrés tiene su propio aeropuerto. Puedes tomar un taxi o alquilar un vehículo desde el aeropuerto hasta la atracción.",
+    "selfDrive": "🚗 Tour por la Isla en Vehículo Propio (Muy Recomendado)",
+    "selfDriveDesc": "Es muy recomendable alquilar un carrito de golf o scooter y conducir por la Circunvalar. Las vistas costeras son excelentes y hay estacionamiento afuera del parque.",
+    "bus": "🚌 Autobús Local",
+    "busDesc": "Puedes tomar un autobús local y bajarte en la parada West View en la carretera de circunvalación.",
+    "intercity": "Transporte en la Isla",
+    "intercityDesc": "La forma más popular de moverse por la isla de San Andrés es alquilar un carrito de golf o scooter para un tour flexible.",
     "cycling": "Otras Opciones",
-    "cyclingDesc": "Puede alquilar transporte en el pueblo o caminar para explorar y apreciar mejor el paisaje marítimo.",
+    "cyclingDesc": "Los visitantes que se alojan cerca también pueden ir en bicicleta.",
     "tips": "Consejos de Viaje",
-    "tipsDesc": "El viaje desde Medellín es largo. Se recomienda planificar con anticipación su itinerario y alojamiento."
+    "tipsDesc": "Planifique suficiente tiempo para su recorrido por la isla y prepare protector solar y equipo de esnórquel."
   },
   "gallery": {
     "title": "Fotos Impresionantes",
@@ -306,33 +307,33 @@
     ]
   },
   "historyTimeline": {
-    "title": "Cronología Histórica",
+    "title": "Ecología y Desarrollo",
     "items": [
       {
-        "year": "Días Iniciales",
-        "title": "Orígenes: Playa Natural",
-        "plaque": "Belleza Natural",
-        "description": "La Playa Arboletes fue originalmente una playa natural en Arboletes, volviéndose gradualmente popular entre los residentes locales y turistas por sus hermosas vistas al mar y aguas cálidas."
+        "year": "Primeros Días",
+        "title": "Cala Rocosa Natural",
+        "plaque": "Maravilla Natural",
+        "description": "Eco Parque West View era originalmente una cala rocosa completamente natural en la isla de San Andrés, famosa por sus aguas excepcionalmente cristalinas y abundantes peces tropicales."
       },
       {
-        "year": "Período de Desarrollo",
-        "title": "Desarrollo: Construcción de Instalaciones Turísticas",
-        "plaque": "Desarrollo Turístico",
-        "description": "Con el tiempo, el turismo en Arboletes continuó desarrollándose. La Playa Arboletes agregó gradualmente varias instalaciones turísticas y proyectos de actividades acuáticas, convirtiéndose en una atracción turística importante en el área."
+        "year": "Adición de Instalaciones",
+        "title": "Renovación Integrada en la Naturaleza",
+        "plaque": "Experiencia del Visitante",
+        "description": "Para facilitar la entrada segura al agua, los lugareños construyeron toboganes de madera, trampolines y pasamanos a lo largo de la costa rocosa, creando su aspecto clásico actual."
       },
       {
-        "year": "Era Moderna",
-        "title": "Moderno: Parque Marítimo Integral",
-        "plaque": "Desarrollo Turístico (Parque Marítimo)",
-        "description": "Hoy en día, la Playa Arboletes se ha convertido en un destino turístico integral que combina el ocio playero y el parque acuático, recibiendo más reconocimiento y amor de los turistas."
+        "year": "Ecología Moderna",
+        "title": "Conservación Marina y Centro de Buceo",
+        "plaque": "Protección Ecológica",
+        "description": "Hoy en día, no solo es un destino popular para el esnórquel, sino que también enfatiza la protección ecológica marina, presentando la icónica estatua submarina de Poseidón para que los buceadores la exploren."
       }
     ],
     "guideTitle": "Consejo de Guía para Visitantes",
-    "guideContent": "Al visitar, puede comenzar desde el centro del pueblo de Arboletes y dirigirse a la Playa Arboletes; disfrutar del sol de la playa y el agua del mar; participar en varias actividades en el parque acuático; probar la cocina local en restaurantes cercanos; si tiene tiempo suficiente, también puede continuar explorando otras atracciones en Arboletes."
+    "guideContent": "Se recomienda encarecidamente alquilar un carrito de golf y conducir por la Circunvalar. El paisaje en el camino es espectacular y hay estacionamiento disponible afuera del parque."
   },
   "officialManagement": {
     "title": "Gestión y Propiedad",
-    "text": "Playa Arboletes y el volcán de lodo natural circundante son administrados y mantenidos principalmente por la Alcaldía de Arboletes. El entorno ecológico está supervisado por el departamento de Antioquia y agencias ambientales regionales (como CORPOURABA) para proteger esta maravilla natural única. Los centros de entretenimiento artificiales, como el parque acuático del castillo (Riviera del Sol), son operados y administrados de manera independiente por empresas privadas."
+    "text": "Eco Parque West View y el entorno marino circundante se gestionan con el apoyo del gobierno de San Andrés y agencias ambientales regionales (como CORALINA) para proteger esta maravilla natural única."
   },
   "cookieSettings": {
     "title": "Configuración de Cookies",
