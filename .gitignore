@@ -61,6 +61,4 @@ node_modules/
 # Build outputs
 next.config.js.bak
 
-# Ignore gallery images
-/public/gallery/*
-!/public/gallery/.gitkeep
+
