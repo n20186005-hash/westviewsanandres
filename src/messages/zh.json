@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "title": "Eco Parque West View | 哥伦比亚圣安德烈斯的水上乐园",
+    "description": "探索 Eco Parque West View，位于哥伦比亚圣安德烈斯的水上乐园，享受刺激的水上活动和家庭乐趣。"
+  },
+  "header": {
+    "siteName": "Eco Parque West View",
+    "home": "首页",
+    "gallery": "图库",
+    "reviews": "评价",
+    "map": "地图",
+    "backToHome": "返回首页"
+  },
+  "hero": {
+    "title": "Eco Parque West View",
+    "subtitle": "圣安德烈斯顶级水上乐园",
+    "rating": "4.6",
+    "reviewCount": "6,290",
+    "hours": "水上乐园",
+    "openMaps": "查看地图导航"
+  },
+  "intro": {
+    "title": "探索 Eco Parque West View",
+    "description": "探索哥伦比亚圣安德烈斯的顶级水上乐园，完美融合刺激水上活动与家庭乐趣的度假目的地。",
+    "visitGuide": {
+      "title": "游览建议",
+      "items": [
+        "上午游览：从圣安德烈斯市区出发，前往 Eco Parque West View，享受水上乐园乐趣",
+        "下午活动：继续体验水上设施，品尝园区美食，休息放松",
+        "傍晚时光：在园区内欣赏表演，体验当地夜生活"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "核心亮点",
+      "items": [
+        "刺激水上滑梯：拥有多个刺激的水上滑梯和游乐设施",
+        "大型游泳池：多个大型游泳池，适合全家一起享受水上乐趣",
+        "儿童游乐区：专门的儿童游乐区，适合带孩子的家庭游客"
+      ]
+    }
+  },
+  "route": {
+    "title": "游玩路线与实用建议",
+    "overview": "推荐按半日到一日的节奏游览，兼顾戏水、拍照和休息。",
+    "steps": [
+      "上午先到园区熟悉各区域，优先体验热门水上滑梯和主泳池，避开中午人流高峰。",
+      "中午在园区内或附近餐饮点补充体力，安排短暂休息，并注意补水与防晒。",
+      "下午继续体验儿童戏水区、浅水活动区或适合拍照的景观区域，适合家庭同行慢节奏游玩。"
+    ],
+    "supplementsTitle": "出行提示",
+    "supplements": [
+      "建议自备泳衣、拖鞋、毛巾和替换衣物，便于全天活动后及时整理。",
+      "圣安德烈斯日照较强，建议准备高倍防晒、太阳镜和足量饮用水。",
+      "如需了解门票、设施开放情况或特殊活动安排，请以现场公告或官方渠道信息为准。"
+    ]
+  },
+  "basicInfo": {
+    "title": "核心标签",
+    "officialName": "景点名称",
+    "officialNameValue": "Eco Parque West View",
+    "type": "景点类型",
+    "typeValue": "水上乐园",
+    "country": "国家",
+    "countryValue": "哥伦比亚",
+    "city": "城市",
+    "cityValue": "圣安德烈斯, 圣安德烈斯-普罗维登西亚省",
+    "googleRating": "谷歌评分",
+    "address": "位置",
+    "addressValue": "San Andrés, 哥伦比亚",
+    "plusCode": "Plus 代码",
+    "plusCodeValue": "G7CC+C9",
+    "phone": "联系电话",
+    "phoneValue": "+57 85129588",
+    "petFriendly": "宠物准入",
+    "petFriendlyValue": "请咨询现场工作人员",
+    "tickets": "营业时间",
+    "ticketsValue": "09:00–05:00",
+    "facilities": "实用设施",
+    "facilitiesValue": "水上滑梯、游泳池、儿童游乐区、餐厅"
+  },
+  "hours": {
+    "title": "开放时间与游览建议",
+    "outdoor": "营业时间",
+    "outdoorTime": "09:00–05:00",
+    "lighthouse": "最佳游览时间",
+    "summer": "上午和下午",
+    "summerTime": "建议参考官方信息",
+    "winter": "注意事项",
+    "winterTime": "携带防晒用品、泳衣和充足的水",
+    "warning": "动态天气提示",
+    "warningTime": "圣安德烈斯气候炎热，非常适合水上活动",
+    "tip": "园区内设有餐厅和小吃摊"
+  },
+  "gallery": {
+    "title": "精彩照片",
+    "subtitle": "感受哥伦比亚圣安德烈斯的水上乐园魅力",
+    "captions": [
+      "Eco Parque West View 全景",
+      "水上乐园外观",
+      "水上滑梯设施",
+      "游泳池区域"
+    ],
+    "viewAll": "在 Google Maps 查看更多照片",
+    "showAllPhotos": "显示全部照片"
+  },
+  "reviews": {
+    "title": "游客评价",
+    "declaration": "评价信息可透过 Google Maps 查看",
+    "moreReviews": "在 Google Maps 查看更多评价",
+    "items": []
+  },
+  "mapSection": {
+    "title": "地图位置",
+    "subtitle": "San Andrés, 哥伦比亚",
+    "openMaps": "在 Google Maps 查看位置",
+    "nearbyTitle": "周边推荐",
+    "nearby1Name": "圣安德烈斯市区",
+    "nearby1Desc": "步行可达",
+    "nearby2Name": "其他景点",
+    "nearby2Desc": "车程可达"
+  },
+  "footer": {
+    "rights": "© 2026 Eco Parque West View. 保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 设置",
+    "officialResourcesTitle": "相关资源与资讯",
+    "officialLinks": {
+      "colombiaTravel": {
+        "name": "哥伦比亚国家旅游局官方门户",
+        "url": "https://colombia.travel/es"
+      },
+      "mincit": {
+        "name": "哥伦比亚贸易、工业和旅游部",
+        "url": "https://www.mincit.gov.co/"
+      },
+      "procolombia": {
+        "name": "哥伦比亚旅游促进局",
+        "url": "https://procolombia.co/"
+      },
+      "sanandres": {
+        "name": "圣安德烈斯群岛省政府",
+        "url": "https://www.sanandres.gov.co/"
+      },
+      "migracion": {
+        "name": "哥伦比亚国家移民局",
+        "url": "https://www.migracioncolombia.gov.co/"
+      }
+    },
+    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新时间：2026年6月",
+    "sections": [
+      {
+        "heading": "1. 我们收集的信息",
+        "content": "我们仅收集提供服务所必需的最低限度数据。"
+      },
+      {
+        "heading": "2. 我们如何使用您的信息",
+        "content": "我们使用收集到的信息用于改善网站内容和用户体验。"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新时间：2026年6月",
+    "sections": [
+      {
+        "heading": "1. 接受条款",
+        "content": "访问和使用本网站，即表示您同意受这些服务条款的约束。"
+      },
+      {
+        "heading": "2. 内容使用",
+        "content": "本网站所有内容仅供参考。"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie 设置",
+    "description": "我们使用 Cookie 来改善您的浏览体验。",
+    "essential": {
+      "title": "必要 Cookie",
+      "description": "这些 Cookie 对于网站正常运行至关重要。",
+      "badge": "始终保持活跃"
+    },
+    "analytics": {
+      "title": "分析型 Cookie",
+      "description": "它们通过收集匿名使用数据，帮助我们了解访客如何与我们的网站互动。",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "激活",
+          "description": "它会收集访客如何使用我们网站的匿名信息。"
+        }
+      ]
+    },
+    "marketing": {
+      "title": "营销 Cookie",
+      "description": "它们用于展示相关广告并衡量广告活动的有效性。",
+      "items": [
+        {
+          "name": "个性化广告",
+          "status": "停用",
+          "description": "它可以根据你的兴趣为你展示相关的广告。"
+        }
+      ]
+    },
+    "save": "保存偏好设置",
+    "saved": "设置已保存！",
+    "preferences": {
+      "items": [
+        {
+          "name": "用户偏好",
+          "status": "激活",
+          "description": "保存您的语言偏好和网站设置。"
+        }
+      ],
+      "title": "偏好 Cookie",
+      "description": "它们会记住您的设置，例如语言和主题偏好。"
+    },
+    "consentManagement": "同意管理：您可以随时更改您的 Cookie 设置。",
+    "rejectAll": "拒绝一切"
+  },
+  "officialManagement": {
+    "title": "管理机构与权属说明",
+    "text": "Eco Parque West View 由当地旅游部门管理。"
+  },
+  "historyTimeline": {
+    "title": "历史与发展",
+    "items": [
+      {
+        "year": "早期",
+        "title": "起源：水上乐园建设",
+        "plaque": "旅游发展",
+        "description": "Eco Parque West View 最初是圣安德烈斯的一个水上乐园项目。"
+      },
+      {
+        "year": "发展期",
+        "title": "发展：设施建设",
+        "plaque": "旅游发展",
+        "description": "随着时间推移，乐园不断增加各种水上活动项目和设施。"
+      },
+      {
+        "year": "现代",
+        "title": "现代：综合性水上乐园",
+        "plaque": "旅游发展",
+        "description": "如今，Eco Parque West View 已经成为圣安德烈斯的重要旅游景点。"
+      }
+    ],
+    "guideTitle": "游客导览建议",
+    "guideContent": "游客可以从圣安德烈斯市区出发，前往 Eco Parque West View，享受水上乐趣。"
+  },
+  "transport": {
+    "title": "交通指南",
+    "airport": "✈️ 机场到景点路线",
+    "airportDesc": "圣安德烈斯有自己的机场，从机场可以乘坐出租车或公交前往乐园。",
+    "selfDrive": "自驾前往",
+    "selfDriveDesc": "可以租车自驾前往，圣安德烈斯岛上的道路状况良好。",
+    "bus": "🚌 公共交通",
+    "busDesc": "可以乘坐 local bus 前往乐园附近。",
+    "intercity": "岛内交通",
+    "intercityDesc": "圣安德烈斯岛上可以租用高尔夫球车或自行车游览。",
+    "cycling": "其他方式",
+    "cyclingDesc": "可以步行或租用交通工具游览。",
+    "tips": "出行建议",
+    "tipsDesc": "建议提前规划好行程和住宿。"
+  },
+  "tickets": {
+    "title": "门票信息",
+    "outdoor": "营业时间",
+    "outdoorPrice": "09:00–05:00",
+    "lighthouse": "门票价格",
+    "adults": "成人",
+    "adultsPrice": "请咨询现场",
+    "students": "儿童",
+    "studentsPrice": "请咨询现场",
+    "card": "购票方式",
+    "cardPrice": "现场购票或在线预订",
+    "officialNotice": "获取最新信息，请查阅",
+    "officialNoticeLinkLabel": "官方网站",
+    "officialNoticeLink": "https://maps.app.goo.gl/yUsqkGAHwLbrpgsr8"
+  },
+  "knowledge": {
+    "title": "发现 Eco Parque West View 的魅力",
+    "sections": [
+      {
+        "id": "waterpark",
+        "title": "水上乐园功能",
+        "content": "作为水上乐园，这里提供各种刺激的水上活动设施。"
+      },
+      {
+        "id": "location",
+        "title": "地理位置与交通",
+        "content": "Eco Parque West View 位于哥伦比亚圣安德烈斯，交通便利。"
+      }
+    ]
+  }
+}

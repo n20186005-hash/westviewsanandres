@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "title": "Playa Arboletes | Parque Acuático Marítimo en Arboletes, Colombia",
+    "description": "Explora la Playa Arboletes, una atracción turística en Arboletes, Antioquia, Colombia, y experimenta la hermosa playa y la diversión del parque acuático."
+  },
+  "header": {
+    "siteName": "Playa Arboletes",
+    "home": "Inicio",
+    "gallery": "Galería",
+    "reviews": "Reseñas",
+    "map": "Mapa",
+    "backToHome": "Volver al Inicio"
+  },
+  "hero": {
+    "title": "Playa Arboletes",
+    "subtitle": "Playa del Caribe, Volcán de Lodo Natural y Parque Acuático de Ensueño",
+    "rating": "4.5",
+    "reviewCount": "6,770",
+    "hours": "Playa Natural / Parque Acuático / Volcán de Lodo Ecológico",
+    "openMaps": "Ver Ubicación"
+  },
+  "intro": {
+    "title": "Explora Playa Arboletes",
+    "description": "Descubre la joya costera de Antioquia, Colombia — un destino vacacional de primer nivel que combina a la perfección maravillas naturales con diversión acuática familiar.\n\nUbicada en la costa caribeña del departamento de Antioquia, Playa Arboletes es un destino turístico raro que combina a la perfección 'maravillas naturales vírgenes' con 'grandes instalaciones de entretenimiento artificial'.\n\nNo solo cuenta con amplias playas de aguas cristalinas y arena fina, sino que justo en el borde de la playa se encuentra un impresionante resort acuático temático de castillos (a menudo llamado el 'Disney de Colombia' por los lugareños). Además, a poca distancia a pie se encuentra el mundialmente famoso volcán de lodo costero natural. Ya sea que busques emociones en actividades acuáticas o seas un viajero de bienestar que anhela un baño de lodo mineral natural, aquí encontrarás tus vacaciones perfectas.",
+    "visitGuide": {
+      "title": "Consejos de Visita",
+      "items": [
+        "🌞 Tour Matutino: Comenzar desde el centro del pueblo de Arboletes ➔ Dirigirse a la Playa Arboletes ➔ Disfrutar del sol de la playa",
+        "🌙 Actividades Acuáticas por la Tarde: Participar en actividades del parque acuático ➔ Probar la cocina local ➔ Experimentar la vida marítima",
+        "🎉 Tiempo de Atardecer: Ver el atardecer en la playa ➔ Experimentar la vida nocturna local"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Aspectos Destacados",
+      "items": [
+        "🏰 Parque Acuático Castillo (Riviera del Sol): Un enorme complejo acuático temático de castillos construido justo al lado de la playa. Cuenta con múltiples piscinas azules gigantes, emocionantes toboganes de agua, un área interactiva de barco pirata y esculturas míticas únicas, lo que lo convierte en un hito perfecto para viajes familiares y fotografías.",
+        "🌋 Volcán de Lodo Natural de Clase Mundial: El volcán de lodo cerca de la playa es el regalo natural más singular de la región. Los visitantes pueden saltar al cráter para experimentar un baño de lodo cálido y de alta flotabilidad, y disfrutar de un spa natural rico en minerales.",
+        "🌊 Playa del Caribe y Arte en Arena: La playa amplia y de suave pendiente es perfecta para pasear y disfrutar de magníficos atardeceres en el mar. A menudo se pueden encontrar exquisitas esculturas de arena de vida marina (como delfines y tortugas) creadas por artistas locales, llenas de rico encanto costero colombiano."
+      ]
+    }
+  },
+  "route": {
+    "title": "💡 Consejos y Itinerario",
+    "overview": "Itinerario Perfecto de Un Día:",
+    "steps": [
+      "Mañana (Baño de Lodo y Playa): Dirígete temprano al volcán de lodo para un baño de lodo natural, luego camina directamente hacia el Mar Caribe para lavarte en el agua tibia, dejando tu piel increíblemente suave.",
+      "Tarde (Diversión en el Parque Acuático): Entra al parque acuático del castillo junto a la playa, nada en las piscinas gigantes y experimenta los toboganes y diversas instalaciones de entretenimiento.",
+      "Noche (Atardecer y Comida): Regresa a la playa para encontrar el mejor lugar cerca de las esculturas de arena para fotografiar el atardecer caribeño. Luego, disfruta de un auténtico festín de mariscos colombianos en un restaurante cercano."
+    ],
+    "supplementsTitle": "Consejos Prácticos",
+    "supplements": [
+      "Ropa: Al experimentar el volcán de lodo, asegúrate de usar un traje de baño viejo que no te importe ensuciar. El lodo tiene una flotabilidad extrema, por lo que puedes flotar de manera fácil y segura incluso si no sabes nadar.",
+      "Protección Solar e Hidratación: El clima local es cálido con fuerte luz solar. Por favor, lleva protector solar ecológico de alto FPS, gafas de sol y mucha agua potable.",
+      "Servicios de Lavado: Después del baño de lodo, además de lavarte en el mar, los residentes locales ofrecen servicios de lavado con agua dulce en la playa. Es muy conveniente tener listos algunos billetes pequeños de pesos colombianos (COP) para propinas."
+    ]
+  },
+  "knowledge": {
+    "title": "Descubre el Encanto de la Playa Arboletes",
+    "sections": [
+      {
+        "id": "beach",
+        "title": "Playa y Cultura",
+        "content": "La Playa Arboletes es una atracción turística importante en Arboletes, llevando la función del desarrollo turístico local. Tiene hermosas playas y aguas cálidas, lo que la convierte en un lugar ideal para experimentar la cultura marítima colombiana."
+      },
+      {
+        "id": "waterpark",
+        "title": "Función del Parque Acuático",
+        "content": "Como una atracción turística y parque acuático marítimo, este no es solo un lugar de ocio para turistas, sino también un lugar importante para que los residentes locales y turistas disfruten de actividades acuáticas. El parque encarna la vitalidad y diversión del turismo marítimo colombiano."
+      },
+      {
+        "id": "location",
+        "title": "Ubicación y Transporte",
+        "content": "La Playa Arboletes está ubicada en Arboletes, Antioquia, Colombia, con transporte conveniente, lo que la convierte en una opción ideal para el turismo marítimo en Colombia."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Datos Rápidos",
+    "officialName": "Nombre Oficial",
+    "officialNameValue": "Playa Arboletes",
+    "type": "Tipo de Atracción",
+    "typeValue": "Playa Natural / Parque Acuático / Volcán de Lodo Ecológico",
+    "country": "País",
+    "countryValue": "Colombia",
+    "city": "Ciudad",
+    "cityValue": "Arboletes, Antioquia",
+    "googleRating": "Calificación de Google",
+    "address": "Dirección",
+    "addressValue": "Cl. 31 #3246, Arboletes, Antioquia, Colombia",
+    "plusCode": "Código Plus",
+    "plusCodeValue": "VH4F+25",
+    "phone": "Teléfono",
+    "phoneValue": "N/A",
+    "petFriendly": "Mascotas permitidas",
+    "petFriendlyValue": "Por favor consulte al personal en el sitio",
+    "tickets": "Entradas",
+    "ticketsValue": "La playa pública es gratuita; el parque acuático/resort y los servicios de lavado del volcán de lodo requieren consulta en el lugar para conocer los precios.",
+    "facilities": "Instalaciones",
+    "facilitiesValue": "Baños públicos cercanos, restaurantes y estacionamiento"
+  },
+  "hours": {
+    "title": "Horarios y Consejos para Visitantes",
+    "outdoor": "Horario Comercial",
+    "outdoorTime": "Playa abierta todo el día; parque acuático e instalaciones principales aprox. 09:00–21:00",
+    "lighthouse": "Mejor Momento de Visita",
+    "summer": "Mañana y atardecer",
+    "summerTime": "(Depende del clima y la temporada, consulte Google Maps)",
+    "winter": "Notas",
+    "winterTime": "Traiga protector solar, traje de baño y abundante agua",
+    "warning": "💡 Clima Dinámico",
+    "warningTime": "Arboletes tiene un clima cálido, ideal para actividades de playa. Recomendamos traer protector solar y abundante agua.",
+    "tip": "Hay muchos puestos de comida local y restaurantes cerca de la playa, donde puede probar auténtica cocina marítima colombiana."
+  },
+  "tickets": {
+    "title": "Información Importante",
+    "outdoor": "Tarifa de Entrada",
+    "outdoorPrice": "Por favor consulte en el sitio",
+    "lighthouse": "Información de Transporte",
+    "adults": "Desde Medellín",
+    "adultsPrice": "Tomar un bus aprox. 5-6 horas",
+    "students": "Duración Recomendada de Visita",
+    "studentsPrice": "Medio día a un día",
+    "card": "Atracciones Cercanas",
+    "cardPrice": "Centro del pueblo de Arboletes, otras playas. 👉 [Ir a Arboletes]",
+    "officialNotice": "Para obtener las últimas actualizaciones, consulte el",
+    "officialNoticeLinkLabel": "Sitio Web Oficial de la Alcaldía de Arboletes",
+    "officialNoticeLink": "https://www.arboletes-antioquia.gov.co/"
+  },
+  "transport": {
+    "title": "Cómo Llegar",
+    "airport": "✈️ Aeropuerto al Destino (Recomendación Principal)",
+    "airportDesc": "El aeropuerto más cercano a Playa Arboletes es el Aeropuerto Los Garzones (MTR) en Montería. Al llegar, puedes tomar un taxi o minibús local (Colectivos) en dirección noroeste por carretera. El viaje es de unos 80 km por buenas carreteras y toma solo de 1.5 a 2 horas directamente al centro del pueblo y la zona de la playa. Esta es la forma más eficiente de llegar.",
+    "selfDrive": "En Coche",
+    "selfDriveDesc": "Desde Medellín, siga el camino por aproximadamente 5-6 horas para llegar a Arboletes. La Playa Arboletes está ubicada en el pueblo.",
+    "bus": "🚌 Autobús Intermunicipal / Conducción (Desde Medellín)",
+    "busDesc": "Si sales desde Medellín, deberás cruzar terreno montañoso, lo que hace que el viaje sea más largo (alrededor de 8-10 horas). Se recomienda hacer de esta ruta parte de un viaje por carretera profundo o elegir un autobús nocturno de lujo. Para aquellos que buscan ahorrar tiempo, se recomienda encarecidamente la opción de 'volar a Montería'.",
+    "intercity": "Dentro del Pueblo",
+    "intercityDesc": "La Playa Arboletes está ubicada en el pueblo de Arboletes, fácilmente accesible desde el centro del pueblo.",
+    "cycling": "Otras Opciones",
+    "cyclingDesc": "Puede alquilar transporte en el pueblo o caminar para explorar y apreciar mejor el paisaje marítimo.",
+    "tips": "Consejos de Viaje",
+    "tipsDesc": "El viaje desde Medellín es largo. Se recomienda planificar con anticipación su itinerario y alojamiento."
+  },
+  "gallery": {
+    "title": "Fotos Impresionantes",
+    "subtitle": "Sienta el Encanto Marítimo de Arboletes, Colombia",
+    "captions": [
+      "Vista Panorámica de la Playa Arboletes",
+      "Hermoso Paisaje de Playa",
+      "Instalaciones del Parque Acuático",
+      "Vida Local de Playa",
+      "Paisaje Marítimo de Arboletes",
+      "Diversión en Actividades Acuáticas",
+      "Un Rincón de la Playa",
+      "Estilo Marítimo Colombiano",
+      "Escenas de Actividades de Turistas",
+      "Instalaciones de Entretenimiento de Playa",
+      "Vista de Calle de Arboletes",
+      "Atmósfera del Parque Marítimo",
+      "Elementos de Ocio de Playa",
+      "Paisaje Marítimo",
+      "Escenas de Actividades de Turistas",
+      "Escenas de Vida Marítima",
+      "Sol y Olas"
+    ],
+    "viewAll": "Ver más fotos en Google Maps",
+    "showAllPhotos": "Mostrar Todas las Fotos"
+  },
+  "reviews": {
+    "title": "Reseñas de Visitantes",
+    "declaration": "La información de las reseñas se puede ver a través de Google Maps (enlace externo).",
+    "moreReviews": "Ver Más Reseñas en Google Maps",
+    "items": [
+      {
+        "name": "Carlos Mendoza",
+        "date": "hace 2 meses",
+        "rating": 5,
+        "text": "Hermosa playa, se puede sentir el encanto marítimo de Arboletes."
+      },
+      {
+        "name": "Li Xiaoming",
+        "date": "hace 1 mes",
+        "rating": 5,
+        "text": "El parque acuático es muy divertido, un gran lugar para viajes familiares!"
+      },
+      {
+        "name": "María González",
+        "date": "hace 3 semanas",
+        "rating": 5,
+        "text": "Un lugar encantador para disfrutar de la playa en Colombia."
+      },
+      {
+        "name": "John Smith",
+        "date": "hace más de 6 meses",
+        "rating": 5,
+        "text": "A charming beach destination in Colombia. Great for family trips."
+      },
+      {
+        "name": "Ana Silva",
+        "date": "hace 2 meses",
+        "rating": 4,
+        "text": "Hermoso lugar para disfrutar de la playa. Muy recomendado."
+      },
+      {
+        "name": "Zhang Wei",
+        "date": "hace 1 mes",
+        "rating": 5,
+        "text": "¡Visita obligada cuando vengas a Arboletes, siente la cultura marítima de Colombia!"
+      },
+      {
+        "name": "Roberto Pérez",
+        "date": "hace 3 meses",
+        "rating": 5,
+        "text": "Excelente lugar para disfrutar de la playa y actividades acuáticas."
+      },
+      {
+        "name": "Emma Wilson",
+        "date": "hace 2 meses",
+        "rating": 5,
+        "text": "A must-visit place in Arboletes! The beach is beautiful and fun."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Ubicación en el Mapa",
+    "subtitle": "Cl. 31 #3246, Arboletes, Antioquia, Colombia",
+    "openMaps": "Ver en Google Maps",
+    "nearbyTitle": "Recomendaciones Cercanas",
+    "nearby1Name": "Centro del Pueblo de Arboletes",
+    "nearby1Desc": "🚶 Caminable",
+    "nearby2Name": "Otras Playas",
+    "nearby2Desc": "🚗 En coche"
+  },
+  "footer": {
+    "rights": "© 2026 Playa Arboletes. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Configuración de Cookies",
+    "officialResourcesTitle": "Recursos Oficiales y Enlaces",
+    "officialLinks": {
+      "colombiaTravel": {
+        "name": "Portal Oficial de Turismo Nacional de Colombia (Colombia Travel)",
+        "url": "https://colombia.travel/es"
+      },
+      "mincit": {
+        "name": "Ministerio de Comercio, Industria y Turismo de Colombia (MinCIT)",
+        "url": "https://www.mincit.gov.co/"
+      },
+      "procolombia": {
+        "name": "Agencia de Promoción de Turismo, Inversión Extranjera y Exportaciones No Tradicionales de Colombia (ProColombia)",
+        "url": "https://procolombia.co/"
+      },
+      "sanandres": {
+        "name": "Gobierno de la Isla de San Andrés",
+        "url": "https://www.sanandres.gov.co/"
+      },
+      "migracion": {
+        "name": "Agencia Nacional de Migración de Colombia (Migración Colombia)",
+        "url": "https://www.migracioncolombia.gov.co/"
+      }
+    },
+    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Información que Recopilamos",
+        "content": "Solo recopilamos los datos mínimos necesarios para proporcionar nuestros servicios. Estos datos pueden incluir: datos de navegación (dirección IP, tipo de navegador, páginas visitadas), cookies y tecnologías similares, y cualquier información que proporcione voluntariamente a través de formularios de contacto o correo electrónico."
+      },
+      {
+        "heading": "2. Cómo Utilizamos su Información",
+        "content": "Utilizamos la información recopilada para: mejorar el contenido del sitio web y la experiencia del usuario, analizar el tráfico y los patrones de uso, responder a solicitudes y cumplir con nuestras obligaciones legales."
+      },
+      {
+        "heading": "3. Servicios de Terceros",
+        "content": "Nuestro sitio web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad."
+      },
+      {
+        "heading": "4. Sus Derechos",
+        "content": "Bajo el Reglamento General de Protección de Datos (RGPD) y regulaciones relacionadas, usted tiene derecho a: acceder a sus datos personales, solicitar corrección o eliminación, oponerse al tratamiento y presentar una queja ante una autoridad de control."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los Términos",
+        "content": "Al acceder y utilizar este sitio web, usted acepta estar sujeto a estos términos de servicio."
+      },
+      {
+        "heading": "2. Uso del Contenido",
+        "content": "Todo el contenido de este sitio web es solo para fines informativos. Somos un sitio web independiente de información turística de terceros, no afiliado con ninguna atracción turística, agencia gubernamental u operador comercial."
+      },
+      {
+        "heading": "3. Exactitud de la Información",
+        "content": "Nos esforzamos por proporcionar información precisa y oportuna, pero no podemos garantizar su integridad o exactitud. Los itinerarios, condiciones y servicios están sujetos a cambios sin previo aviso. Verifique siempre la información importante a través de canales oficiales antes de viajar."
+      },
+      {
+        "heading": "4. Limitación de Responsabilidad",
+        "content": "No seremos responsables por ningún daño directo o indirecto derivado del uso de este sitio web o la dependencia de la información aquí proporcionada."
+      }
+    ]
+  },
+  "historyTimeline": {
+    "title": "Cronología Histórica",
+    "items": [
+      {
+        "year": "Días Iniciales",
+        "title": "Orígenes: Playa Natural",
+        "plaque": "Belleza Natural",
+        "description": "La Playa Arboletes fue originalmente una playa natural en Arboletes, volviéndose gradualmente popular entre los residentes locales y turistas por sus hermosas vistas al mar y aguas cálidas."
+      },
+      {
+        "year": "Período de Desarrollo",
+        "title": "Desarrollo: Construcción de Instalaciones Turísticas",
+        "plaque": "Desarrollo Turístico",
+        "description": "Con el tiempo, el turismo en Arboletes continuó desarrollándose. La Playa Arboletes agregó gradualmente varias instalaciones turísticas y proyectos de actividades acuáticas, convirtiéndose en una atracción turística importante en el área."
+      },
+      {
+        "year": "Era Moderna",
+        "title": "Moderno: Parque Marítimo Integral",
+        "plaque": "Desarrollo Turístico (Parque Marítimo)",
+        "description": "Hoy en día, la Playa Arboletes se ha convertido en un destino turístico integral que combina el ocio playero y el parque acuático, recibiendo más reconocimiento y amor de los turistas."
+      }
+    ],
+    "guideTitle": "Consejo de Guía para Visitantes",
+    "guideContent": "Al visitar, puede comenzar desde el centro del pueblo de Arboletes y dirigirse a la Playa Arboletes; disfrutar del sol de la playa y el agua del mar; participar en varias actividades en el parque acuático; probar la cocina local en restaurantes cercanos; si tiene tiempo suficiente, también puede continuar explorando otras atracciones en Arboletes."
+  },
+  "officialManagement": {
+    "title": "Gestión y Propiedad",
+    "text": "Playa Arboletes y el volcán de lodo natural circundante son administrados y mantenidos principalmente por la Alcaldía de Arboletes. El entorno ecológico está supervisado por el departamento de Antioquia y agencias ambientales regionales (como CORPOURABA) para proteger esta maravilla natural única. Los centros de entretenimiento artificiales, como el parque acuático del castillo (Riviera del Sol), son operados y administrados de manera independiente por empresas privadas."
+  },
+  "cookieSettings": {
+    "title": "Configuración de Cookies",
+    "description": "Última actualización: junio de 2026\n\nUtilizamos cookies para mejorar su experiencia de navegación. Puede gestionar sus preferencias a continuación.",
+    "essential": {
+      "title": "Cookies Esenciales",
+      "description": "Estas cookies son esenciales para el funcionamiento correcto del sitio web y no se pueden deshabilitar.",
+      "badge": "Siempre Activo"
+    },
+    "analytics": {
+      "title": "Cookies de Análisis",
+      "description": "Nos ayudan a comprender cómo interactúan los visitantes con nuestro sitio web mediante la recopilación de datos de uso anónimos.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Activo",
+          "description": "Recopila información anónima sobre cómo los visitantes utilizan nuestro sitio web."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Cookies de Marketing",
+      "description": "Se utilizan para mostrar anuncios relevantes y medir la efectividad de las campañas publicitarias.",
+      "items": [
+        {
+          "name": "Anuncios Personalizados",
+          "status": "Inactivo",
+          "description": "Puede mostrarle anuncios relevantes basados en sus intereses."
+        }
+      ]
+    },
+    "save": "Guardar Preferencias",
+    "saved": "¡Configuración guardada!",
+    "preferences": {
+      "items": [
+        {
+          "name": "Preferencias del Usuario",
+          "status": "Activo",
+          "description": "Guarda sus preferencias de idioma y configuraciones del sitio web."
+        }
+      ],
+      "title": "Cookies de Preferencias",
+      "description": "Recuerdan sus configuraciones, como las preferencias de idioma y tema."
+    },
+    "consentManagement": "Gestión del Consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del sitio web.",
+    "rejectAll": "Rechazar Todas"
+  }
+}
