@@ -3,16 +3,15 @@ import type { NextConfig } from 'next';
 
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   images: {
     remotePatterns: [
       { protocol: 'https' as const, hostname: 'images.unsplash.com' },
     ],
   },
-  // 确保静态导出时正确处理图片路径
-  output: 'export',
-  distDir: 'out',
-  // 解决多lockfile警告
+  // OpenNext for Cloudflare requires the standalone output (it reads
+  // .next/standalone for the server bundle); 'export' produces no manifest.
+  output: 'standalone' as const,
   outputFileTracingRoot: process.cwd(),
 };
 
