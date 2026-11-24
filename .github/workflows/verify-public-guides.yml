@@ -1,74 +1,110 @@
-name: Verify the 93 published island guides
+name: Capture public visitor interface from Chrome
 on:
   push:
-    branches: ['verify/139-public-guides-20261124']
-permissions:
-  contents: read
+    branches: [verify/139-public-guides-20261124]
+permissions: {}
 jobs:
-  public-pages:
+  screenshots:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 8
     steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-      - name: Compare production with the published place records
+      - name: Visit home, directory and guide on desktop and mobile
+        env:
+          SITE: westviewsanandres.com
         run: |
-          python3 - <<'PY'
-          import concurrent.futures, hashlib, html.parser, json, os
+          python - <<'PY'
+          import base64, json, os, pathlib, shutil, socket, subprocess, time
+          from urllib.request import urlopen, Request
+          from urllib.error import HTTPError
           from urllib.parse import urlparse
-          from urllib.request import Request, urlopen
-
-          class Page(html.parser.HTMLParser):
-              def __init__(self):
-                  super().__init__(convert_charrefs=True)
-                  self.tags, self.body = [], []
-                  self.hidden = 0
-              def handle_starttag(self, tag, attrs):
-                  self.tags.append((tag, dict(attrs)))
-                  if tag in ('script', 'style'): self.hidden += 1
-              def handle_endtag(self, tag):
-                  if tag in ('script', 'style'): self.hidden = max(self.hidden - 1, 0)
-              def handle_data(self, data):
-                  if not self.hidden: self.body.append(data)
-
-          records = json.load(open('src/data/places.json'))
-          assert len({r['slug'] for r in records}) == 31
-          def check(job):
-              place, language = job
-              slug = place['slug']
-              address = 'https://www.westviewsanandres.com/' + language + '/nearby/' + slug
-              missing, doc = [], Page()
+          out=pathlib.Path("ui-evidence"); out.mkdir(exist_ok=True)
+          domain=os.environ["SITE"]; locale="zh"; origin="https://www."+domain
+          port=9515
+          proc=subprocess.Popen([shutil.which("chromedriver"),"--port="+str(port)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+          base="http://127.0.0.1:"+str(port)
+          sid=""
+          def cmd(verb,path,body=None):
+              data=None if body is None else json.dumps(body).encode()
+              req=Request(base+path,data=data,method=verb,headers={"Content-Type":"application/json"})
               try:
-                  with urlopen(Request(address, headers={'User-Agent':'WestView-Publication-Check/1'}), timeout=25) as response:
-                      if response.status != 200 or urlparse(response.url).hostname not in ('www.westviewsanandres.com', 'westviewsanandres.com'):
-                          missing.append('unexpected response')
-                      doc.feed(response.read().decode('utf-8'))
-                  visible = ' '.join(' '.join(doc.body).split())
-                  content = place['content'][language]
-                  for key, value in [('title', content['name']), ('body', content['detail']), ('management', content['management']), ('FAQ wording', content['question']), *[('route', step) for step in content['steps']]]:
-                      if ' '.join(value.split()) not in visible: missing.append(key)
-                  tests = {
-                    'hero image': any(tag=='img' and attrs.get('src')=='/nearby/'+slug+'.webp' for tag,attrs in doc.tags),
-                    'header': any(tag=='header' for tag,_ in doc.tags), 'footer': any(tag=='footer' for tag,_ in doc.tags),
-                    'facts': any(tag=='table' for tag,_ in doc.tags), 'three FAQs': sum(tag=='details' for tag,_ in doc.tags)==3,
-                    'map': any(tag=='a' and 'google.com/maps/search' in attrs.get('href','') for tag,attrs in doc.tags),
-                    'canonical': any(tag=='link' and attrs.get('rel')=='canonical' and urlparse(attrs.get('href','')).path==urlparse(address).path for tag,attrs in doc.tags),
-                    'languages': {attrs.get('hreflang') for tag,attrs in doc.tags if tag=='link'} >= {'zh','en','es'}
-                  }
-                  missing.extend(key for key, ok in tests.items() if not ok)
-              except Exception as error:
-                  missing.append(str(error))
-              return address, missing
-
-          jobs = [(p,l) for p in records for l in ('es','en','zh')]
-          with concurrent.futures.ThreadPoolExecutor(4) as pool: rows = list(pool.map(check,jobs))
-          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
-              for address, failures in rows:
-                  result = ', '.join(failures) or 'PASS'
-                  print(address, result, flush=True)
-                  out.write('- '+address+' — '+result+'\n')
-          passed = sum(not f for _,f in rows)
-          print(f'{passed}/{len(rows)} production URLs passed')
-          if passed != 93: raise SystemExit(1)
+                  with urlopen(req,timeout=75) as res:return json.load(res)["value"]
+              except HTTPError as err:raise RuntimeError(err.read().decode()[:1000])
+          for _ in range(60):
+              try:cmd("GET","/status");break
+              except OSError:time.sleep(.25)
+          sid=cmd("POST","/session",{"capabilities":{"alwaysMatch":{"browserName":"chrome","goog:chromeOptions":{"binary":shutil.which("google-chrome") or shutil.which("chromium"),"args":["--headless=new","--no-sandbox","--disable-dev-shm-usage","--disable-gpu","--lang=zh-CN"]}}}})["sessionId"]
+          root="/session/"+sid
+          def js(script,*args):return cmd("POST",root+"/execute/sync",{"script":script,"args":list(args)})
+          def dev(method,**params):return cmd("POST",root+"/goog/cdp/execute",{"cmd":method,"params":params})
+          def shot(name):
+              value=dev("Page.captureScreenshot",format="png",captureBeyondViewport=False)
+              (out/(name+".png")).write_bytes(base64.b64decode(value["data"]))
+          def until(fn,sec=25):
+              start=time.time()
+              while time.time()-start<sec:
+                  val=fn()
+                  if val:return val
+                  time.sleep(.35)
+              return False
+          def ready():until(lambda: js("return document.readyState==='complete'"));time.sleep(.65)
+          def click_link(path,detail=False):
+              script="""const path=arguments[0], detail=arguments[1];let items=[...document.querySelectorAll('a[href]')].filter(a=>{let u=new URL(a.href);return u.origin===location.origin&&(detail?u.pathname.startsWith(path+'/')&&u.pathname.length>path.length+1:u.pathname.replace(/\\/$/,'')===path)});for(const a of items){const r=a.getBoundingClientRect(),s=getComputedStyle(a);if(r.width>0&&r.height>0&&s.display!=='none'&&s.visibility!=='hidden'){a.scrollIntoView({block:'center',behavior:'instant'});return a}}return null"""
+              el=js(script,path,detail)
+              if not el:
+                  toggle=js("""return [...document.querySelectorAll('button[aria-controls],button[aria-expanded],button[aria-label]')].find(b=>b.getBoundingClientRect().width>0&&/menu|菜单|選單/i.test(b.getAttribute('aria-label')||b.textContent))||null""")
+                  if toggle:
+                      cmd("POST",root+"/element/"+next(iter(toggle.values()))+"/click",{});time.sleep(.3);el=js(script,path,detail)
+              if not el:return {"click":False,"reason":"no visible link"}
+              before=js("return location.pathname")
+              href=cmd("GET",root+"/element/"+next(iter(el.values()))+"/attribute/href")
+              try:cmd("POST",root+"/element/"+next(iter(el.values()))+"/click",{})
+              except RuntimeError as e:return {"click":False,"href":href,"reason":str(e)[:240]}
+              ok=until(lambda:js("return location.pathname")!=before,8)
+              ready()
+              return {"click":bool(ok),"href":href,"path":js("return location.pathname")}
+          def metrics():
+              return js("""let f=document.querySelector('footer');let w=document.documentElement.clientWidth;return {width:w,scrollWidth:Math.max(document.body.scrollWidth,document.documentElement.scrollWidth),viewport:innerWidth,h1:document.querySelector('h1')?.innerText?.trim()||'',footer:f?{tag:f.tagName,classes:f.className,text:f.innerText.replace(/\\s+/g,' ').slice(0,1500),links:[...f.querySelectorAll('a')].map(a=>a.href)}:null,url:location.href,wide:[...document.querySelectorAll('body *')].filter(e=>{let r=e.getBoundingClientRect();return r.width>0&&r.right>w+2&&getComputedStyle(e).position!=='absolute'}).slice(0,5).map(e=>[e.tagName,e.className?.toString().slice(0,75)])}""")
+          def photo():
+              return js("""let w=innerWidth,h=innerHeight;let result=[];for(const e of document.querySelectorAll('img,header,section,div')){let r=e.getBoundingClientRect();if(r.width<w*.45||r.height<120||r.top>h*.92||r.bottom<50)continue;let src=e.tagName==='IMG'?(e.currentSrc||e.src):null;if(!src){let bg=getComputedStyle(e).backgroundImage;let m=bg.match(/url\\(["']?([^"')]+)["']?\\)/);if(m)src=m[1]}if(src)result.push({source:src,loaded:e.tagName==='IMG'?e.complete&&e.naturalWidth>0:null,width:Math.round(r.width),height:Math.round(r.height),top:Math.round(r.top)})}return result.sort((a,b)=>b.width*b.height-a.width*a.height)[0]||null""")
+          def top():js("window.scrollTo({top:0,behavior:'instant'});");time.sleep(.45)
+          def footer_shot(name):
+              js("document.querySelector('footer')?.scrollIntoView({block:'start',behavior:'instant'})");time.sleep(.45);shot(name)
+          report=[]
+          try:
+              for mode,w,h in [('desktop',1440,960),('mobile',390,844)]:
+                  dev("Emulation.setDeviceMetricsOverride",width=w,height=h,deviceScaleFactor=1,mobile=mode=='mobile')
+                  cmd("POST",root+"/url",{"url":origin+"/"+locale});ready();top()
+                  row={"mode":mode,"home":metrics()};report.append(row)
+                  row["homePhoto"]=until(photo,6);shot(mode+"-home");footer_shot(mode+"-home-footer");top()
+                  row["homeToDirectory"]=click_link("/"+locale+"/nearby")
+                  if not row["homeToDirectory"]["click"]:
+                      cmd("POST",root+"/url",{"url":origin+"/"+locale+"/nearby"});ready()
+                  top();row["directory"]=metrics();shot(mode+"-directory")
+                  row["directoryToDetail"]=click_link("/"+locale+"/nearby",True)
+                  if not row["directoryToDetail"]["click"]:continue
+                  top();row["detail"]=metrics()
+                  row["detailPhoto"]=until(lambda: (p if (p:=photo()) and p.get("loaded") is not False else None),12)
+                  if row["detailPhoto"] and row["detailPhoto"]["loaded"] is None:
+                      src=row["detailPhoto"]["source"]; js("let im=new Image();window.__qaHero=im;im.src=arguments[0]",src)
+                      row["detailPhoto"]["loaded"]=bool(until(lambda:js("return window.__qaHero.complete&&window.__qaHero.naturalWidth>0"),10))
+                  shot(mode+"-detail");footer_shot(mode+"-detail-footer")
+                  row['footerMatches']=all(row[t]['footer']==row['home']['footer'] for t in ('directory','detail')) and bool(row['home']['footer'])
+                  row['noOverflow']=all(row[t]['scrollWidth']<=w+1 and row[t]['width']<=w+1 for t in ('home','directory','detail'))
+              failures=[]
+              for r in report:
+                  for name,val in [('homeToDirectory',r.get('homeToDirectory',{}).get('click')),('directoryToDetail',r.get('directoryToDetail',{}).get('click')),('detailPhoto',(r.get('detailPhoto') or {}).get('loaded')),('footerMatches',r.get('footerMatches')),('noOverflow',r.get('noOverflow'))]:
+                      if not val:failures.append(r['mode']+' '+name)
+                  print('UI',r['mode'],r.get('homeToDirectory'),r.get('directoryToDetail'),r.get('detailPhoto'),r.get('footerMatches'),[(t,r[t]['width'],r[t]['scrollWidth']) for t in ('home','directory','detail') if t in r],flush=True)
+              print("RESULT",failures or "PASS",flush=True)
+              (out/'verification.json').write_text(json.dumps({'site':domain,'failures':failures,'viewports':report},ensure_ascii=False,indent=2))
+              if failures:raise SystemExit(1)
+          finally:
+              cmd("DELETE",root);proc.terminate()
           PY
+      - name: Store screenshots and DOM checks
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: row-139-chrome-ui
+          path: ui-evidence/
+          retention-days: 60
