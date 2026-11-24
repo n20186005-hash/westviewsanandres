@@ -1,0 +1,74 @@
+name: Verify the 93 published island guides
+on:
+  push:
+    branches: ['verify/139-public-guides-20261124']
+permissions:
+  contents: read
+jobs:
+  public-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Compare production with the published place records
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures, hashlib, html.parser, json, os
+          from urllib.parse import urlparse
+          from urllib.request import Request, urlopen
+
+          class Page(html.parser.HTMLParser):
+              def __init__(self):
+                  super().__init__(convert_charrefs=True)
+                  self.tags, self.body = [], []
+                  self.hidden = 0
+              def handle_starttag(self, tag, attrs):
+                  self.tags.append((tag, dict(attrs)))
+                  if tag in ('script', 'style'): self.hidden += 1
+              def handle_endtag(self, tag):
+                  if tag in ('script', 'style'): self.hidden = max(self.hidden - 1, 0)
+              def handle_data(self, data):
+                  if not self.hidden: self.body.append(data)
+
+          records = json.load(open('src/data/places.json'))
+          assert len({r['slug'] for r in records}) == 31
+          def check(job):
+              place, language = job
+              slug = place['slug']
+              address = 'https://www.westviewsanandres.com/' + language + '/nearby/' + slug
+              missing, doc = [], Page()
+              try:
+                  with urlopen(Request(address, headers={'User-Agent':'WestView-Publication-Check/1'}), timeout=25) as response:
+                      if response.status != 200 or urlparse(response.url).hostname not in ('www.westviewsanandres.com', 'westviewsanandres.com'):
+                          missing.append('unexpected response')
+                      doc.feed(response.read().decode('utf-8'))
+                  visible = ' '.join(' '.join(doc.body).split())
+                  content = place['content'][language]
+                  for key, value in [('title', content['name']), ('body', content['detail']), ('management', content['management']), ('FAQ wording', content['question']), *[('route', step) for step in content['steps']]]:
+                      if ' '.join(value.split()) not in visible: missing.append(key)
+                  tests = {
+                    'hero image': any(tag=='img' and attrs.get('src')=='/nearby/'+slug+'.webp' for tag,attrs in doc.tags),
+                    'header': any(tag=='header' for tag,_ in doc.tags), 'footer': any(tag=='footer' for tag,_ in doc.tags),
+                    'facts': any(tag=='table' for tag,_ in doc.tags), 'three FAQs': sum(tag=='details' for tag,_ in doc.tags)==3,
+                    'map': any(tag=='a' and 'google.com/maps/search' in attrs.get('href','') for tag,attrs in doc.tags),
+                    'canonical': any(tag=='link' and attrs.get('rel')=='canonical' and urlparse(attrs.get('href','')).path==urlparse(address).path for tag,attrs in doc.tags),
+                    'languages': {attrs.get('hreflang') for tag,attrs in doc.tags if tag=='link'} >= {'zh','en','es'}
+                  }
+                  missing.extend(key for key, ok in tests.items() if not ok)
+              except Exception as error:
+                  missing.append(str(error))
+              return address, missing
+
+          jobs = [(p,l) for p in records for l in ('es','en','zh')]
+          with concurrent.futures.ThreadPoolExecutor(4) as pool: rows = list(pool.map(check,jobs))
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              for address, failures in rows:
+                  result = ', '.join(failures) or 'PASS'
+                  print(address, result, flush=True)
+                  out.write('- '+address+' — '+result+'\n')
+          passed = sum(not f for _,f in rows)
+          print(f'{passed}/{len(rows)} production URLs passed')
+          if passed != 93: raise SystemExit(1)
+          PY
