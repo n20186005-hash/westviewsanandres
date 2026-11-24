@@ -1,3 +1,4 @@
+import { places } from '@/lib/nearby';
 import { MetadataRoute } from 'next';
 import { getBaseUrl } from '@/lib/env';
 
@@ -6,7 +7,7 @@ export const dynamic = 'force-static';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getBaseUrl();
   const locales = ['zh', 'en', 'es'];
-  const routes = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings'];
+  const routes = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings', '/nearby', ...places.map(p => '/nearby/'+p.slug)];
 
   const sitemap: MetadataRoute.Sitemap = [];
 

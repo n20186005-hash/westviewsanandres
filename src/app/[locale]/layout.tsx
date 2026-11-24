@@ -100,13 +100,13 @@ export default async function LocaleLayout({
                 {
                   "@type": "ListItem",
                   "position": 2,
-                  "name": "Antioquia",
+                  "name": "Archipiélago de San Andrés, Providencia y Santa Catalina",
                   "item": `${baseUrl}/`
                 },
                 {
                   "@type": "ListItem",
                   "position": 3,
-                  "name": "Arboletes",
+                  "name": "San Andrés",
                   "item": `${baseUrl}/`
                 }
               ]

@@ -4,6 +4,7 @@
     "description": "Explore Eco Parque West View, a top snorkeling destination in San Andrés, Colombia. Enjoy Caribbean underwater ecology and diving fun."
   },
   "header": {
+    "nearby": "Nearby places",
     "siteName": "Eco Parque West View",
     "home": "Home",
     "gallery": "Gallery",
@@ -12,6 +13,7 @@
     "backToHome": "Back to Home"
   },
   "hero": {
+    "snorkeling": "Snorkeling",
     "title": "Eco Parque West View",
     "subtitle": "Top Snorkeling Destination in San Andrés",
     "rating": "4.6",
@@ -144,19 +146,19 @@
   },
   "gallery": {
     "title": "Stunning Photos",
-    "subtitle": "Feel the Seaside Charm of Arboletes, Colombia",
+    "subtitle": "West View on the western coast of San Andrés",
     "captions": [
-      "Playa Arboletes Panoramic View",
+      "Eco Parque West View · 1",
       "Beautiful Beach Scenery",
       "Water Park Facilities",
       "Local Beach Life",
-      "Arboletes Seaside Scenery",
+      "Eco Parque West View · 5",
       "Water Activities Fun",
       "A Corner of the Beach",
       "Colombian Seaside Style",
       "Tourist Activity Scenes",
       "Beach Entertainment Facilities",
-      "Arboletes Street View",
+      "Eco Parque West View · 11",
       "Seaside Park Atmosphere",
       "Beach Leisure Elements",
       "Seaside Landscape",
@@ -224,13 +226,13 @@
   },
   "mapSection": {
     "title": "Map Location",
-    "subtitle": "Cl. 31 #3246, Arboletes, Antioquia, Colombia",
+    "subtitle": "Eco Parque West View · Avenida Circunvalar, San Andrés, Colombia",
     "openMaps": "View on Google Maps",
     "nearbyTitle": "Nearby Recommendations",
-    "nearby1Name": "Arboletes Town Center",
-    "nearby1Desc": "🚶 Walkable",
-    "nearby2Name": "Other Beaches",
-    "nearby2Desc": "🚗 By car"
+    "nearby1Name": "La Piscinita",
+    "nearby1Desc": "West coast swimming site",
+    "nearby2Name": "Cueva de Morgan",
+    "nearby2Desc": "Cave and island heritage displays"
   },
   "footer": {
     "rights": "© 2026 Eco Parque West View. All rights reserved.",

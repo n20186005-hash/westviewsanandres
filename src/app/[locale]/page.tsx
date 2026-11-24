@@ -1,3 +1,5 @@
+import NearbyDirectory from '@/components/NearbyDirectory';
+import type { Locale } from '@/i18n/routing';
 import { setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
@@ -36,6 +38,7 @@ export default async function HomePage({
         <Gallery />
         <Reviews />
         <MapEmbed />
+        <NearbyDirectory locale={locale as Locale} />
       </main>
       <Footer />
     </>

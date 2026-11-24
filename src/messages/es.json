@@ -4,6 +4,7 @@
     "description": "Explora Eco Parque West View, un destino de esnórquel de primer nivel en San Andrés, Colombia. Disfruta de la ecología submarina del Caribe."
   },
   "header": {
+    "nearby": "Lugares cercanos",
     "siteName": "Eco Parque West View",
     "home": "Inicio",
     "gallery": "Galería",
@@ -12,6 +13,7 @@
     "backToHome": "Volver al Inicio"
   },
   "hero": {
+    "snorkeling": "Esnórquel",
     "title": "Eco Parque West View",
     "subtitle": "Destino de Esnórquel de Primer Nivel en San Andrés",
     "rating": "4.6",
@@ -144,19 +146,19 @@
   },
   "gallery": {
     "title": "Fotos Impresionantes",
-    "subtitle": "Sienta el Encanto Marítimo de Arboletes, Colombia",
+    "subtitle": "West View en la costa occidental de San Andrés",
     "captions": [
-      "Vista Panorámica de la Playa Arboletes",
+      "Eco Parque West View · 1",
       "Hermoso Paisaje de Playa",
       "Instalaciones del Parque Acuático",
       "Vida Local de Playa",
-      "Paisaje Marítimo de Arboletes",
+      "Eco Parque West View · 5",
       "Diversión en Actividades Acuáticas",
       "Un Rincón de la Playa",
       "Estilo Marítimo Colombiano",
       "Escenas de Actividades de Turistas",
       "Instalaciones de Entretenimiento de Playa",
-      "Vista de Calle de Arboletes",
+      "Eco Parque West View · 11",
       "Atmósfera del Parque Marítimo",
       "Elementos de Ocio de Playa",
       "Paisaje Marítimo",
@@ -224,13 +226,13 @@
   },
   "mapSection": {
     "title": "Ubicación en el Mapa",
-    "subtitle": "Cl. 31 #3246, Arboletes, Antioquia, Colombia",
+    "subtitle": "Eco Parque West View · Avenida Circunvalar, San Andrés, Colombia",
     "openMaps": "Ver en Google Maps",
     "nearbyTitle": "Recomendaciones Cercanas",
-    "nearby1Name": "Centro del Pueblo de Arboletes",
-    "nearby1Desc": "🚶 Caminable",
-    "nearby2Name": "Otras Playas",
-    "nearby2Desc": "🚗 En coche"
+    "nearby1Name": "La Piscinita",
+    "nearby1Desc": "Balneario de la costa occidental",
+    "nearby2Name": "Cueva de Morgan",
+    "nearby2Desc": "Cueva y exposiciones del patrimonio isleño"
   },
   "footer": {
     "rights": "© 2026 Playa Arboletes. Todos los derechos reservados.",

@@ -4,6 +4,7 @@
     "description": "探索 Eco Parque West View，位于哥伦比亚圣安德烈斯的顶级浮潜圣地，享受加勒比海水下生态与跳水乐趣。"
   },
   "header": {
+    "nearby": "周边景点",
     "siteName": "Eco Parque West View",
     "home": "首页",
     "gallery": "图库",
@@ -12,6 +13,7 @@
     "backToHome": "返回首页"
   },
   "hero": {
+    "snorkeling": "浮潜",
     "title": "Eco Parque West View",
     "subtitle": "圣安德烈斯顶级浮潜圣地",
     "rating": "4.6",
@@ -161,13 +163,13 @@
   },
   "mapSection": {
     "title": "地图位置",
-    "subtitle": "San Andrés, 哥伦比亚",
+    "subtitle": "Eco Parque West View · Avenida Circunvalar, San Andrés, Colombia",
     "openMaps": "在 Google Maps 查看位置",
     "nearbyTitle": "周边推荐",
-    "nearby1Name": "圣安德烈斯市区",
-    "nearby1Desc": "步行可达",
-    "nearby2Name": "其他景点",
-    "nearby2Desc": "车程可达"
+    "nearby1Name": "La Piscinita",
+    "nearby1Desc": "西岸天然海池",
+    "nearby2Name": "Cueva de Morgan",
+    "nearby2Desc": "洞穴与岛屿文化展区"
   },
   "footer": {
     "rights": "© 2026 Eco Parque West View. 保留所有权利。",

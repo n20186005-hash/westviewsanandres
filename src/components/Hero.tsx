@@ -1,33 +1,11 @@
+import PhotoHero from './PhotoHero';
 import { useTranslations } from 'next-intl';
 
 export default function Hero() {
   const t = useTranslations('hero');
   const mapsUrl = "https://maps.app.goo.gl/yUsqkGAHwLbrpgsr8";
 
-  return (
-    <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
-      {/* Background image */}
-      <div className="absolute inset-0">
-        <img
-          src="/gallery/westviewsanandres (9).jpg"
-          alt="Eco Parque West View"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
-      </div>
-
-      {/* Content */}
-      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 w-full">
-        <div className="max-w-3xl">
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4 animate-fade-in-up">
-            {t('title')}
-          </h1>
-          <p className="text-lg sm:text-xl text-white/80 mb-8 animate-fade-in-up animation-delay-100 font-light">
-            {t('subtitle')}
-          </p>
-
-          {/* Meta row */}
-          <div className="flex flex-wrap items-center gap-4 mb-8 animate-fade-in-up animation-delay-200">
+  return <PhotoHero src="/gallery/westviewsanandres (9).jpg" alt="Eco Parque West View" title={t('title')} subtitle={t('subtitle')}>
             <div className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="#f0b429" stroke="none">
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
@@ -44,7 +22,7 @@ export default function Hero() {
             </div>
             {/* Dynamic Weather Widget Placeholder */}
             <div className="flex items-center gap-1.5 bg-blue-500/30 backdrop-blur-sm rounded-full px-4 py-2 border border-blue-400/50">
-              <span className="text-white text-sm">🌊 适合浮潜 / Good for Snorkeling</span>
+              <span className="text-white text-sm">🌊 {t('snorkeling')}</span>
             </div>
             <a
               href={mapsUrl}
@@ -58,16 +36,5 @@ export default function Hero() {
               </svg>
               <span className="text-white text-sm">{t('openMaps')}</span>
             </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" opacity="0.5">
-          <polyline points="6 9 12 15 18 9"/>
-        </svg>
-      </div>
-    </section>
-  );
+  </PhotoHero>;
 }
